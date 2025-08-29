@@ -1,0 +1,896 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Plisy — Rollo-Pro.pl</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"/>
+  <link rel="stylesheet" href="assets/styles.css"/>
+  <meta name="description" content="Plisy — Funkcjonalne i estetyczne. Sprawdzają się w oknach dachowych i o niestandardowych kształtach."/>
+  <style>
+    /* Custom styles from the original file */
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f3f4f6;
+      color: #1f2937;
+    }
+    .navbar {
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .inner {
+      max-width: 1280px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+    }
+    .brand {
+      font-weight: bold;
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+    }
+    .dot {
+      background-color: #2563eb;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin-right: 0.5rem;
+    }
+    .menu {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+    .btn {
+      padding: 0.5rem 1rem;
+      border-radius: 9999px;
+      transition: background-color 0.3s;
+    }
+    .btn:hover {
+      background-color: #e5e7eb;
+    }
+    .btn.primary {
+      background-color: #2563eb;
+      color: #fff;
+    }
+    .btn.primary:hover {
+      background-color: #1e40af;
+    }
+    .dropdown {
+      position: relative;
+    }
+    .dropdown-menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #fff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 0.5rem;
+      min-width: 150px;
+      display: none;
+      flex-direction: column;
+      padding: 0.5rem 0;
+    }
+    .dropdown:hover .dropdown-menu {
+      display: flex;
+    }
+    .dropdown-menu a {
+      padding: 0.5rem 1rem;
+    }
+    .footer {
+      background-color: #1f2937;
+      color: #9ca3af;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    .main-section {
+      max-width: 1280px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background-color: #fff;
+      border-radius: 1.5rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+    .configurator-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    @media (min-width: 1024px) {
+      .configurator-wrapper {
+        flex-direction: row;
+      }
+      .preview-panel {
+        position: sticky;
+        top: 2rem;
+        align-self: flex-start;
+      }
+    }
+    .configurator-panel, .preview-panel {
+      flex: 1;
+      padding: 2rem;
+      border-radius: 1.5rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+    .configurator-panel {
+      background-color: #f9fafb;
+    }
+    .preview-panel {
+      background-color: #1f2937;
+      color: #e5e7eb;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .image-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .image-item {
+      cursor: pointer;
+      border: 3px solid transparent;
+      transition: border-color 0.2s, transform 0.2s;
+      position: relative;
+      background-color: #fff;
+      padding: 0.5rem;
+      border-radius: 0.75rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    .image-item:hover {
+      transform: scale(1.05);
+    }
+    .image-item.selected {
+      border-color: #2563eb;
+    }
+    .image-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 0.5rem;
+    }
+    .item-name {
+        font-size: 0.8rem;
+        color: #374151;
+        text-align: center;
+        margin-top: 0.5rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .zoom-icon {
+        position: absolute;
+        top: 12px;
+        left: 12px;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        border-radius: 50%;
+        width: 28px;
+        height: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        cursor: pointer;
+        z-index: 10;
+        opacity: 0;
+        transition: opacity 0.2s;
+        border: 1px solid white;
+    }
+    .image-item:hover .zoom-icon {
+        opacity: 1;
+    }
+    .input-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    .input-group input {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 0.5rem;
+    }
+    .radio-group {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .radio-card {
+      padding: 1rem;
+      border: 2px solid #ccc;
+      border-radius: 1rem;
+      cursor: pointer;
+      transition: border-color 0.2s;
+    }
+    .radio-card.selected {
+      border-color: #2563eb;
+      background-color: #eff6ff;
+    }
+    .price-box {
+      background-color: #e0e7ff;
+      color: #1f2937;
+      padding: 1rem;
+      border-radius: 1rem;
+      margin-top: 2rem;
+      text-align: center;
+    }
+    .price-box h3 {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .toast {
+      visibility: hidden;
+      min-width: 250px;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      border-radius: 2px;
+      padding: 16px;
+      position: fixed;
+      z-index: 101;
+      left: 50%;
+      bottom: 30px;
+      transform: translateX(-50%);
+    }
+    .toast.show {
+      visibility: visible;
+      animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    }
+    @keyframes fadein {
+      from {bottom: 0; opacity: 0;}
+      to {bottom: 30px; opacity: 1;}
+    }
+    @keyframes fadeout {
+      from {bottom: 30px; opacity: 1;}
+      to {bottom: 0; opacity: 0;}
+    }
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 100;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        justify-content: center;
+        align-items: center;
+    }
+    #image-modal {
+        z-index: 102;
+    }
+    .modal-content {
+        position: relative;
+        padding: 1rem;
+        background-color: #fff;
+        border-radius: 0.5rem;
+    }
+    .modal-content img {
+        max-width: 90vw;
+        max-height: 90vh;
+    }
+    .close-button {
+        position: absolute;
+        top: 10px;
+        right: 25px;
+        color: #fff;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    #product-preview {
+        position: relative;
+        overflow: hidden;
+    }
+    .preview-image {
+        position: absolute;
+        object-fit: cover;
+    }
+    #preview-profile-top-img,
+    #preview-profile-bottom-img,
+    #preview-material-img {
+        left: 50%;
+        transform: translateX(-50%);
+        width: var(--preview-element-width, 100%);
+    }
+    #preview-profile-top-img {
+      top: 0;
+      z-index: 2;
+    }
+    #preview-profile-bottom-img {
+      bottom: 0;
+      z-index: 2;
+      transform: translateX(-50%) rotate(180deg);
+    }
+    #preview-material-img {
+      z-index: 1;
+    }
+    #zoom-product-preview {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        cursor: pointer;
+        z-index: 20;
+    }
+    #zoom-product-preview:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+  </style>
+</head>
+<body>
+
+<header class="navbar">
+  <div class="inner">
+    <a class="brand" href="index.html"><span class="dot"></span> Rollo-Pro.pl</a>
+    <nav class="menu">
+      <a class="btn" href="index.html">Główna</a>
+      <div class="dropdown">
+        <button class="btn dropdown-toggle">Produkty ▾</button>
+        <div class="dropdown-menu">
+          <a href="rolety.html">Rolety</a>
+          <a href="plisy.html">Plisy</a>
+          <a href="zaluzje.html">Żaluzje</a>
+          <a href="wertikale.html">Wertikale</a>
+          <a href="moskitiery.html">Moskitiery</a>
+        </div>
+      </div>
+      <a class="btn" href="o-nas.html">O nas</a>
+      <a class="btn" href="pomoc.html">Pomoc</a>
+      <a class="btn relative" href="koszyk.html">
+        🛒 Koszyk
+        <span id="cart-counter" class="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center" style="display: none;">0</span>
+      </a>
+      <a class="btn primary" href="pomoc.html#kontakt">Wyceń zamówienie</a>
+    </nav>
+  </div>
+</header>
+
+<main class="main-content">
+  <section class="main-section">
+    <h1 class="text-4xl font-bold text-center mb-4">Plisy</h1>
+    <p class="text-center text-gray-500 mb-8">Funkcjonalne i estetyczne. Sprawdzają się w oknach dachowych i o niestandardowych kształtach.</p>
+    
+    <div class="configurator-wrapper">
+      
+      <div class="preview-panel">
+        <h2 class="text-2xl font-bold mb-4">Twój produkt</h2>
+        <div id="product-preview" class="w-full max-w-sm h-96 bg-white rounded-lg shadow-lg relative">
+          <div id="zoom-product-preview" title="Powiększ podgląd">🔍</div>
+          <img id="preview-profile-top-img" class="preview-image" src="https://placehold.co/400x40/d1d5db" alt="Top Profile">
+          <img id="preview-material-img" class="preview-image" src="https://placehold.co/400x400/f3f4f6" alt="Material">
+          <img id="preview-profile-bottom-img" class="preview-image" src="https://placehold.co/400x40/d1d5db" alt="Bottom Profile">
+        </div>
+        <div class="mt-4 text-left w-full max-w-sm">
+          <h3 class="font-semibold text-lg">Podsumowanie:</h3>
+          <p id="preview-width-height">Wymiary: -- x -- cm</p>
+          <p id="preview-profile-name">Profil: --</p>
+          <p id="preview-material-name">Tkanina: --</p>
+          <p id="preview-mounting-name">Montaż: --</p>
+          <p id="preview-options">Opcje: --</p>
+          <div class="price-box mt-4">
+            <p>Szacowana cena:</p>
+            <h3 id="estimated-price">0,00 zł</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="configurator-panel">
+        <h2 class="text-2xl font-bold mb-4">Opcje konfiguracji</h2>
+
+        <div class="mb-6">
+          <h3 class="font-bold mb-2">1. Wymiary (cm)</h3>
+          <div class="flex gap-4">
+            <div class="input-group">
+              <label for="width">Szerokość:</label>
+              <input type="number" id="width" min="30" max="150" value="80" oninput="updateAll()">
+            </div>
+            <div class="input-group">
+              <label for="height">Wysokość:</label>
+              <input type="number" id="height" min="50" max="250" value="120" oninput="updateAll()">
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-6">
+          <h3 class="font-bold mb-2">2. Kolor profilu</h3>
+          <div class="flex gap-2 mb-4">
+            <button id="cosimo-btn" class="btn primary">Cosimo</button>
+            <button id="cosimo-one-btn" class="btn">Cosimo One</button>
+          </div>
+          <div id="cosimo-container">
+              <div id="profiles-gallery-cosimo" class="image-gallery"></div>
+          </div>
+          <div id="cosimo-one-container" style="display: none;">
+              <div id="profiles-gallery-cosimo-one" class="image-gallery"></div>
+          </div>
+        </div>
+
+        <div class="mb-6">
+          <h3 class="font-bold mb-2">3. Tkanina</h3>
+          <div class="flex gap-2 mb-4 flex-wrap">
+            <button id="standart-btn" class="btn">Standart</button>
+            <button id="blackout-btn" class="btn">Blackout</button>
+            <button id="honeycomb-btn" class="btn">Honeycomb</button>
+          </div>
+        </div>
+
+        <div class="mb-6">
+          <h3 class="font-bold mb-2">4. Sposób montażu</h3>
+          <div class="radio-group">
+            <div class="radio-card selected" data-value="standart">
+              <h4>Standard</h4>
+              <p>Montaż inwazyjny w listwę przyszybową. Bardzo stabilny.</p>
+            </div>
+            <div class="radio-card" data-value="bezinwazyjny1">
+              <h4>Mocowanie bezinwazyjne 1</h4>
+              <p>Montaż na ramie okna za pomocą zaczepów. Bez wiercenia.</p>
+            </div>
+            <div class="radio-card" data-value="bezinwazyjny2">
+              <h4>Mocowanie bezinwazyjne 2</h4>
+              <p>Montaż na ramie okna za pomocą zaczepów i taśmy.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-6">
+          <h3 class="font-bold mb-2">5. Opcje dodatkowe</h3>
+          <div class="flex flex-col gap-2">
+            <label class="flex items-center gap-2">
+              <input type="checkbox" id="prowadnica-checkbox" onchange="updateAll()"/>
+              <span>Prowadnica</span>
+            </label>
+            <label class="flex items-center gap-2">
+              <input type="checkbox" id="pb-checkbox" onchange="updateAll()"/>
+              <span>PB (Prowadzenie Boczne)</span>
+            </label>
+          </div>
+        </div>
+
+        <button onclick="addToCart()" class="btn primary w-full">Dodaj do koszyka</button>
+
+      </div>
+    </div>
+    
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    © 2025 Rollo-Pro.pl — Profesjonalny producent rolet i osłon okiennych.
+  </div>
+</footer>
+
+<div id="toast" class="toast"></div>
+
+<div id="image-modal" class="modal">
+    <span class="close-button" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modal-image">
+</div>
+
+<div id="fabric-modal" class="modal">
+    <div class="modal-content" style="background-color: #fff; padding: 2rem; max-height: 80vh; overflow-y: auto; color: #1f2937; max-width: 800px; width: 90%;">
+      <span id="close-fabric-modal" class="close-button" style="color: #333; font-size: 30px;">&times;</span>
+      <h3 id="fabric-modal-title" class="text-2xl font-bold mb-4">Wybierz tkaninę</h3>
+      <div id="fabric-modal-gallery" class="image-gallery"></div>
+    </div>
+</div>
+
+<script>
+  // --- Konfiguracja podglądu produktu ---
+  const PREVIEW_CONFIG = {
+    // --- 1. Podgląd główny (kontener) ---
+    containerWidth: '420px',
+    containerHeight: '420px',
+
+    // --- 2. Elementy w podglądzie głównym ---
+    mainPreviewMaterialWidth: '280px',
+    mainPreviewMaterialHeight: '340px',
+    mainPreviewMaterialTopPosition: '40px',
+    mainPreviewProfileTopPosition: '0px',
+    mainPreviewProfileBottomPosition: '10px',
+    mainPreviewProfileHeightRatio: 0.07,
+
+    // --- 3. Elementy w powiększonym podglądzie (modal) ---
+    modalCombinedImageWidth: 600,
+    modalProfileHeightRatio: 0.07,
+    modalMaterialHeightRatio: 0.9,
+
+    // --- 4. Kadrowanie materiału (aby usunąć białe paski) ---
+    cropMaterialTop: 40,
+    cropMaterialBottom: 40,
+    cropMaterialLeft: 0,
+    cropMaterialRight: 0
+  };
+  // ------------------------------------
+
+  let profilesData = [];
+  let materialsData = [];
+  
+  async function fetchJson(file) {
+      try {
+          const response = await fetch(file);
+          if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+          return await response.json();
+      } catch (e) {
+          console.error(`Could not fetch ${file}:`, e);
+          return []; 
+      }
+  }
+
+  let selectedProfile = '';
+  let selectedMaterial = '';
+  let selectedMounting = 'standart';
+  let hasProwadnica = false;
+  let hasPB = false;
+  let standartMaterials, blackoutMaterials, honeycombMaterials;
+  
+  const previewContainer = document.getElementById('product-preview');
+  const previewProfileTop = document.getElementById('preview-profile-top-img');
+  const previewProfileBottom = document.getElementById('preview-profile-bottom-img');
+  const previewMaterial = document.getElementById('preview-material-img');
+  const previewWidthHeight = document.getElementById('preview-width-height');
+  const previewProfileName = document.getElementById('preview-profile-name');
+  const previewMaterialName = document.getElementById('preview-material-name');
+  const previewMountingName = document.getElementById('preview-mounting-name');
+  const previewOptions = document.getElementById('preview-options');
+  
+  function applyPreviewDimensions() {
+    if (previewContainer && previewProfileTop && previewProfileBottom && previewMaterial) {
+        previewContainer.style.width = PREVIEW_CONFIG.containerWidth;
+        previewContainer.style.height = PREVIEW_CONFIG.containerHeight;
+        previewContainer.style.setProperty('--preview-element-width', PREVIEW_CONFIG.mainPreviewMaterialWidth);
+        
+        const mainPreviewWidthNum = parseFloat(PREVIEW_CONFIG.mainPreviewMaterialWidth);
+        const profileHeight = mainPreviewWidthNum * PREVIEW_CONFIG.mainPreviewProfileHeightRatio;
+        
+        previewProfileTop.style.height = `${profileHeight}px`;
+        previewProfileTop.style.top = PREVIEW_CONFIG.mainPreviewProfileTopPosition;
+        
+        previewProfileBottom.style.height = `${profileHeight}px`;
+        previewProfileBottom.style.bottom = PREVIEW_CONFIG.mainPreviewProfileBottomPosition;
+        previewProfileBottom.style.top = 'auto';
+
+        previewMaterial.style.height = PREVIEW_CONFIG.mainPreviewMaterialHeight;
+        previewMaterial.style.top = PREVIEW_CONFIG.mainPreviewMaterialTopPosition;
+    }
+  }
+
+  function updateCartCounter() {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    const counter = document.getElementById('cart-counter');
+    if (cart.length > 0) {
+        counter.textContent = cart.length;
+        counter.style.display = 'flex';
+    } else {
+        counter.style.display = 'none';
+    }
+  }
+
+  function renderGallery(container, data, type) {
+    container.innerHTML = '';
+    data.forEach((item) => {
+      const div = document.createElement('div');
+      div.className = `image-item ${type}-item`;
+      const itemId = item.nazwa || item.name;
+      if ((type === 'profile' && itemId === selectedProfile) || (type === 'material' && itemId === selectedMaterial)) {
+        div.classList.add('selected');
+      }
+      div.dataset.id = itemId;
+
+      const img = document.createElement('img');
+      img.src = item.sciezka_do_obrazka || item.image || 'https://placehold.co/150x150';
+      img.alt = item.nazwa || item.name;
+      
+      const zoomIcon = document.createElement('div');
+      zoomIcon.className = 'zoom-icon';
+      zoomIcon.innerHTML = '&#128269;';
+      zoomIcon.addEventListener('click', (e) => {
+          e.stopPropagation();
+          openModal(img.src);
+      });
+
+      const nameLabel = document.createElement('p');
+      nameLabel.className = 'item-name';
+      nameLabel.textContent = itemId;
+
+      div.appendChild(zoomIcon);
+      div.appendChild(img);
+      div.appendChild(nameLabel);
+      div.addEventListener('click', () => handleSelection(type, itemId));
+      container.appendChild(div);
+    });
+  }
+
+  function updatePreview() {
+    const widthInput = document.getElementById('width');
+    const heightInput = document.getElementById('height');
+    const width = widthInput.value;
+    const height = heightInput.value;
+    const selectedProfileData = profilesData.find(p => p.name === selectedProfile);
+    const selectedMaterialData = materialsData.find(m => m.nazwa === selectedMaterial);
+    
+    if (selectedProfileData) {
+        const profileImageSrc = `assets/profile/${selectedProfileData.name}-p.png`;
+        previewProfileTop.src = profileImageSrc;
+        previewProfileBottom.src = profileImageSrc;
+        previewProfileName.textContent = `Profil: ${selectedProfileData.name}`;
+    } else {
+        previewProfileTop.src = 'https://placehold.co/400x40/d1d5db';
+        previewProfileBottom.src = 'https://placehold.co/400x40/d1d5db';
+        previewProfileName.textContent = `Profil: --`;
+    }
+
+    if (selectedMaterialData) {
+        previewMaterial.src = selectedMaterialData.sciezka_do_obrazka || 'https://placehold.co/400x400/f3f4f6';
+        previewMaterialName.textContent = `Tkanina: ${selectedMaterialData.nazwa}`;
+    } else {
+        previewMaterial.src = 'https://placehold.co/400x400/f3f4f6';
+        previewMaterialName.textContent = `Tkanina: --`;
+    }
+    previewWidthHeight.textContent = `Wymiary: ${width} x ${height} cm`;
+    previewMountingName.textContent = `Montaż: ${document.querySelector('.radio-card.selected').dataset.value}`;
+    const options = [document.getElementById('prowadnica-checkbox').checked ? 'Prowadnica' : null, document.getElementById('pb-checkbox').checked ? 'PB' : null].filter(Boolean);
+    previewOptions.textContent = `Opcje: ${options.length > 0 ? options.join(', ') : 'brak'}`;
+  }
+
+  function handleSelection(type, id) {
+    if (type === 'profile') {
+      selectedProfile = id;
+      document.querySelectorAll('.profile-item').forEach(el => el.classList.remove('selected'));
+      const selectedEl = document.querySelector(`.profile-item[data-id="${CSS.escape(id)}"]`);
+      if(selectedEl) selectedEl.classList.add('selected');
+    } else if (type === 'material') {
+      selectedMaterial = id;
+      closeFabricModal();
+    }
+    updateAll();
+  }
+
+  function updatePrice() {
+    const widthInput = document.getElementById('width');
+    const heightInput = document.getElementById('height');
+    const priceDisplay = document.getElementById('estimated-price');
+    const width = Number(widthInput.value) || 0;
+    const height = Number(heightInput.value) || 0;
+    if (width < 30 || height < 50) {
+      priceDisplay.textContent = '0,00 zł';
+      return;
+    }
+    const selectedMaterialData = materialsData.find(m => m.nazwa === selectedMaterial);
+    const materialPricePerM2 = selectedMaterialData ? selectedMaterialData.cena_za_m2 : 0;
+    const area = (width / 100) * (height / 100);
+    let finalPrice = area * materialPricePerM2;
+    if (document.getElementById('prowadnica-checkbox').checked) finalPrice += 50;
+    if (document.getElementById('pb-checkbox').checked) finalPrice += 75;
+    priceDisplay.textContent = `${finalPrice.toFixed(2).replace('.', ',')} zł`;
+  }
+
+  function updateAll() {
+    updatePrice();
+    updatePreview();
+  }
+
+  function addToCart() {
+    const priceDisplay = document.getElementById('estimated-price');
+    if (!selectedProfile || !selectedMaterial) {
+      toast('Proszę wybrać profil i tkaninę.');
+      return;
+    }
+    const priceText = priceDisplay.textContent.replace(' zł', '').replace(',', '.');
+    const product = {
+      id: Date.now(),
+      type: 'Plisa',
+      width: document.getElementById('width').value,
+      height: document.getElementById('height').value,
+      profile: profilesData.find(p => p.name === selectedProfile)?.name || 'Nie wybrano',
+      material: materialsData.find(m => m.nazwa === selectedMaterial)?.nazwa || 'Nie wybrano',
+      mounting: document.querySelector('.radio-card.selected').dataset.value,
+      options: [document.getElementById('prowadnica-checkbox').checked ? 'Prowadnica' : null, document.getElementById('pb-checkbox').checked ? 'PB (Prowadzenie Boczne)' : null].filter(Boolean),
+      price: parseFloat(priceText)
+    };
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    cart.push(product);
+    localStorage.setItem('cart', JSON.stringify(cart));
+    updateCartCounter();
+    toast('Produkt dodano do koszyka!');
+  }
+
+  function toast(message) {
+      const toastElement = document.getElementById('toast');
+      toastElement.textContent = message;
+      toastElement.className = "toast show";
+      setTimeout(() => { toastElement.className = toastElement.className.replace("show", ""); }, 3000);
+  }
+
+  function openModal(content) {
+      const imageModal = document.getElementById('image-modal');
+      const modalImage = document.getElementById('modal-image');
+      
+      if (typeof content === 'string') {
+          modalImage.src = content;
+      } else if (content instanceof HTMLCanvasElement) {
+          modalImage.src = content.toDataURL();
+      } else {
+          console.error("Nieprawidłowa zawartość dla modalu obrazu.");
+          return;
+      }
+      imageModal.style.display = "flex";
+  }
+
+  function closeModal() {
+      document.getElementById('image-modal').style.display = "none";
+  }
+
+  function openFabricModal(title, materials) {
+    const fabricModal = document.getElementById('fabric-modal');
+    const fabricModalTitle = document.getElementById('fabric-modal-title');
+    const fabricModalGallery = document.getElementById('fabric-modal-gallery');
+    fabricModalTitle.textContent = `Wybierz tkaninę: ${title}`;
+    renderGallery(fabricModalGallery, materials, 'material');
+    fabricModal.style.display = 'flex';
+  }
+
+  function closeFabricModal() {
+    document.getElementById('fabric-modal').style.display = 'none';
+  }
+
+  async function generateProductImageForModal() {
+      const topImg = document.getElementById('preview-profile-top-img');
+      const materialImg = document.getElementById('preview-material-img');
+      const bottomImg = document.getElementById('preview-profile-bottom-img');
+
+      if (!topImg.src.startsWith('data:') && !topImg.src.startsWith('http') && !topImg.src.includes('placehold.co')) {
+          toast("Obraz profilu jest nieprawidłowy.");
+          return null;
+      }
+      if (!materialImg.src.startsWith('data:') && !materialImg.src.startsWith('http') && !materialImg.src.includes('placehold.co')) {
+          toast("Obraz materiału jest nieprawidłowy.");
+          return null;
+      }
+      if (!bottomImg.src.startsWith('data:') && !bottomImg.src.startsWith('http') && !bottomImg.src.includes('placehold.co')) {
+          toast("Obraz dolnego profilu jest nieprawidłowy.");
+          return null;
+      }
+
+      const desiredModalWidth = PREVIEW_CONFIG.modalCombinedImageWidth;
+      const canvas = document.createElement('canvas');
+      const ctx = canvas.getContext('2d');
+      
+      const loadImage = (src) => new Promise((resolve, reject) => {
+          const img = new Image();
+          img.crossOrigin = "Anonymous";
+          img.onload = () => resolve(img);
+          img.onerror = (err) => reject(new Error(`Failed to load image: ${src}`));
+          img.src = src;
+      });
+
+      try {
+          const [topProfile, material, bottomProfile] = await Promise.all([
+              loadImage(topImg.src),
+              loadImage(materialImg.src),
+              loadImage(bottomImg.src)
+          ]);
+
+          const scaledProfileHeight = desiredModalWidth * PREVIEW_CONFIG.modalProfileHeightRatio;
+          const scaledMaterialHeight = desiredModalWidth * PREVIEW_CONFIG.modalMaterialHeightRatio;
+          
+          canvas.width = desiredModalWidth;
+          canvas.height = scaledProfileHeight + scaledMaterialHeight + scaledProfileHeight;
+
+          let currentY = 0;
+
+          // Ustawienia kadrowania
+          const sx = PREVIEW_CONFIG.cropMaterialLeft;
+          const sy = PREVIEW_CONFIG.cropMaterialTop;
+          const sWidth = material.naturalWidth - (PREVIEW_CONFIG.cropMaterialLeft + PREVIEW_CONFIG.cropMaterialRight);
+          const sHeight = material.naturalHeight - (PREVIEW_CONFIG.cropMaterialTop + PREVIEW_CONFIG.cropMaterialBottom);
+
+          // Rysowanie górnego profilu
+          ctx.drawImage(topProfile, 0, currentY, desiredModalWidth, scaledProfileHeight);
+          currentY += scaledProfileHeight;
+
+          // Rysowanie skadrowanego materiału
+          ctx.drawImage(material, sx, sy, sWidth, sHeight, 0, currentY, desiredModalWidth, scaledMaterialHeight);
+          currentY += scaledMaterialHeight;
+          
+          // Rysowanie dolnego profilu (odwrócony)
+          ctx.save();
+          ctx.translate(desiredModalWidth / 2, currentY + scaledProfileHeight / 2);
+          ctx.rotate(Math.PI);
+          ctx.drawImage(bottomProfile, -desiredModalWidth / 2, -scaledProfileHeight / 2, desiredModalWidth, scaledProfileHeight);
+          ctx.restore();
+
+          return canvas;
+      } catch (error) {
+          console.error("Błąd podczas ładowania obrazów do modalu:", error);
+          toast("Błąd generowania podglądu. Upewnij się, że obrazy profili i materiału są prawidłowe i spróbuj ponownie.");
+          return null;
+      }
+  }
+
+  document.querySelectorAll('.radio-card').forEach(card => {
+    card.addEventListener('click', () => {
+      document.querySelectorAll('.radio-card').forEach(c => c.classList.remove('selected'));
+      card.classList.add('selected');
+      selectedMounting = card.dataset.value;
+      updateAll();
+    });
+  });
+
+  document.getElementById('cosimo-btn').addEventListener('click', () => {
+      document.getElementById('cosimo-container').style.display = 'block';
+      document.getElementById('cosimo-one-container').style.display = 'none';
+      document.getElementById('cosimo-btn').classList.add('primary');
+      document.getElementById('cosimo-one-btn').classList.remove('primary');
+  });
+  document.getElementById('cosimo-one-btn').addEventListener('click', () => {
+      document.getElementById('cosimo-container').style.display = 'none';
+      document.getElementById('cosimo-one-container').style.display = 'block';
+      document.getElementById('cosimo-one-btn').classList.add('primary');
+      document.getElementById('cosimo-btn').classList.remove('primary');
+  });
+
+  document.getElementById('standart-btn').addEventListener('click', () => openFabricModal('Standart', standartMaterials));
+  document.getElementById('blackout-btn').addEventListener('click', () => openFabricModal('Blackout', blackoutMaterials));
+  document.getElementById('honeycomb-btn').addEventListener('click', () => openFabricModal('Honeycomb', honeycombMaterials));
+
+  document.getElementById('prowadnica-checkbox').addEventListener('change', (e) => { hasProwadnica = e.target.checked; updateAll(); });
+  document.getElementById('pb-checkbox').addEventListener('change', (e) => { hasPB = e.target.checked; updateAll(); });
+  
+  document.getElementById('close-fabric-modal').addEventListener('click', closeFabricModal);
+  document.getElementById('fabric-modal').addEventListener('click', (e) => { if (e.target === document.getElementById('fabric-modal')) closeFabricModal(); });
+  document.getElementById('image-modal').addEventListener('click', (e) => { if (e.target === document.getElementById('image-modal')) closeModal(); });
+
+  document.getElementById('zoom-product-preview').addEventListener('click', async () => {
+      const fullProductCanvas = await generateProductImageForModal();
+      if (fullProductCanvas) {
+          openModal(fullProductCanvas);
+      }
+  });
+
+  window.onload = async function() {
+    applyPreviewDimensions(); 
+
+    [profilesData, materialsData] = await Promise.all([fetchJson('profiles.json'), fetchJson('materials.json')]);
+    
+    const cosimoProfiles = profilesData.filter(p => p.name?.includes('Cosimo') && !p.name.includes('Cosimo One'));
+    const cosimoOneProfiles = profilesData.filter(p => p.name?.includes('Cosimo One'));
+    const profilesGalleryCosimo = document.getElementById('profiles-gallery-cosimo');
+    const profilesGalleryCosimoOne = document.getElementById('profiles-gallery-cosimo-one');
+    
+    standartMaterials = materialsData.filter(m => m.rodzaj?.trim().toLowerCase() === 'standart');
+    blackoutMaterials = materialsData.filter(m => m.rodzaj?.trim().toLowerCase() === 'blackout');
+    honeycombMaterials = materialsData.filter(m => m.rodzaj?.trim().toLowerCase() === 'honeycomb');
+    
+    renderGallery(profilesGalleryCosimo, cosimoProfiles, 'profile');
+    renderGallery(profilesGalleryCosimoOne, cosimoOneProfiles, 'profile');
+    
+    if (cosimoProfiles.length > 0) {
+        selectedProfile = cosimoProfiles[0].name;
+    }
+    if (standartMaterials.length > 0) {
+        selectedMaterial = standartMaterials[0].nazwa;
+    }
+    
+    updateAll();
+    updateCartCounter();
+  };
+</script>
+
+</body>
+</html>

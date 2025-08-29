@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Pomoc — Rollo-Pro.pl</title>
+  <link rel="stylesheet" href="assets/styles.css"/>
+</head>
+<body>
+
+<header class="navbar">
+  <div class="inner">
+    <a class="brand" href="index.html"><span class="dot"></span> Rollo-Pro.pl</a>
+    <nav class="menu">
+      <a class="btn" href="index.html">Główna</a>
+      <div class="dropdown">
+        <button class="btn dropdown-toggle">Produkty ▾</button>
+        <div class="dropdown-menu">
+          <a href="rolety.html">Rolety</a>
+          <a href="plisy.html">Plisy</a>
+          <a href="zaluzje.html">Żaluzje</a>
+          <a href="wertikale.html">Wertikale</a>
+          <a href="moskitiery.html">Moskitiery</a>
+        </div>
+      </div>
+      <a class="btn" href="o-nas.html">O nas</a>
+      <a class="btn" href="pomoc.html">Pomoc</a>
+      <a class="btn primary" href="pomoc.html#kontakt">Wyceń zamówienie</a>
+    </nav>
+  </div>
+</header>
+
+  <main class="container">
+    <section class="section">
+      <div class="kicker">FAQ</div>
+      <h1>Pomoc</h1>
+      <div class="cards">
+        <div class="card">
+          <h3>Jak zamówić?</h3>
+          <p>Skontaktuj się z nami przez formularz — oddzwonimy i umówimy pomiar.</p>
+        </div>
+        <div class="card">
+          <h3>Jaki jest czas realizacji?</h3>
+          <p>Zwykle 7–14 dni roboczych, w zależności od systemu i materiału.</p>
+        </div>
+        <div class="card">
+          <h3>Czy wykonujecie montaż?</h3>
+          <p>Tak, kompleksowo realizujemy pomiar i montaż u klienta.</p>
+        </div>
+      </div>
+    </section>
+    <section id="kontakt" class="section">
+      <div class="kicker">Kontakt</div>
+      <h2>Formularz kontaktowy</h2>
+      <form class="card" onsubmit="event.preventDefault(); toast('Dziękujemy! Skontaktujemy się wkrótce.'); this.reset();">
+        <label>Imię i nazwisko<br/><input required style="width:100%;padding:10px;border:1px solid #e5e7eb;border-radius:10px"/></label><br/>
+        <label>E-mail<br/><input type="email" required style="width:100%;padding:10px;border:1px solid #e5e7eb;border-radius:10px"/></label><br/>
+        <label>Telefon<br/><input type="tel" style="width:100%;padding:10px;border:1px solid #e5e7eb;border-radius:10px"/></label><br/>
+        <label>Wiadomość<br/><textarea required rows="5" style="width:100%;padding:10px;border:1px solid #e5e7eb;border-radius:10px"></textarea></label><br/>
+        <button class="btn primary">Wyślij</button>
+      </form>
+      <p class="lead">E-mail: Rolety.screen@gmail.com | Tel.: +48 000 000 000</p>
+    </section>
+  </main>
+
+<footer class="footer">
+  <div class="container">
+    © 2025 Rollo-Pro.pl — Profesjonalne osłony okienne | E-mail: Rolety.screen@gmail.com | Tel.: +48 000 000 000
+  </div>
+</footer>
+<div class="toast"></div>
+<script src="assets/script.js"></script>
+
+</body>
+</html>

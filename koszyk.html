@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Koszyk — Rollo-Pro.pl</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"/>
+  <link rel="stylesheet" href="assets/styles.css"/>
+  <style>
+    body { font-family: 'Inter', sans-serif; background-color: #f3f4f6; color: #1f2937; }
+    .navbar { background-color: #fff; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
+    .inner { max-width: 1280px; margin: auto; display: flex; justify-content: space-between; align-items: center; padding: 1rem; }
+    .brand { font-weight: bold; font-size: 1.5rem; display: flex; align-items: center; }
+    .dot { background-color: #2563eb; width: 10px; height: 10px; border-radius: 50%; margin-right: 0.5rem; }
+    .menu { display: flex; gap: 1rem; align-items: center; }
+    .btn { padding: 0.5rem 1rem; border-radius: 9999px; transition: background-color 0.3s; cursor: pointer; }
+    .btn:hover { background-color: #e5e7eb; }
+    .btn.primary { background-color: #2563eb; color: #fff; }
+    .btn.primary:hover { background-color: #1e40af; }
+    .btn:disabled { background-color: #9ca3af; cursor: not-allowed; }
+    .main-section { max-width: 1280px; margin: 2rem auto; padding: 2rem; background-color: #fff; border-radius: 1.5rem; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+    .footer { background-color: #1f2937; color: #9ca3af; padding: 2rem 1rem; text-align: center; }
+    .modal { display: none; position: fixed; z-index: 100; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.6); justify-content: center; align-items: center; }
+    .modal-content { background-color: #fff; padding: 2rem; border-radius: 1rem; width: 90%; max-width: 500px; }
+    .input-group { margin-bottom: 1rem; }
+    .input-group label { display: block; margin-bottom: 0.5rem; font-weight: 500; }
+    .input-group input { width: 100%; padding: 0.75rem; border: 1px solid #ccc; border-radius: 0.5rem; }
+    .toast { visibility: hidden; min-width: 250px; background-color: #333; color: #fff; text-align: center; border-radius: 2px; padding: 16px; position: fixed; z-index: 101; left: 50%; bottom: 30px; transform: translateX(-50%); }
+    .toast.show { visibility: visible; animation: fadein 0.5s, fadeout 0.5s 3.5s; }
+    @keyframes fadein { from {bottom: 0; opacity: 0;} to {bottom: 30px; opacity: 1;} }
+    @keyframes fadeout { from {bottom: 30px; opacity: 1;} to {bottom: 0; opacity: 0;} }
+  </style>
+</head>
+<body>
+
+<header class="navbar">
+  <div class="inner">
+    <a class="brand" href="index.html"><span class="dot"></span> Rollo-Pro.pl</a>
+    <nav class="menu">
+      <a class="btn" href="index.html">Główna</a>
+      <a class="btn" href="o-nas.html">O nas</a>
+      <a class="btn" href="pomoc.html">Pomoc</a>
+      <a class="btn relative" href="koszyk.html">
+        🛒 Koszyk
+        <span id="cart-counter" class="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center" style="display: none;">0</span>
+      </a>
+      <a class="btn primary" href="pomoc.html#kontakt">Wyceń zamówienie</a>
+    </nav>
+  </div>
+</header>
+
+<main class="main-content">
+  <section class="main-section">
+    <h1 class="text-4xl font-bold text-center mb-8">Twój koszyk</h1>
+    <div id="cart-container" class="overflow-x-auto"></div>
+    <div id="cart-summary" class="text-right mt-8" style="display: none;">
+        <h2 class="text-2xl font-bold">Suma: <span id="total-price">0,00 zł</span></h2>
+        <button id="open-contact-modal-btn" class="btn primary mt-4">Przejdź do zapytania o wycenę</button>
+    </div>
+  </section>
+</main>
+
+<div id="contact-modal" class="modal">
+  <div class="modal-content">
+    <h2 class="text-2xl font-bold mb-4">Dane kontaktowe</h2>
+    <p class="text-gray-600 mb-6">Uzupełnij poniższe pola, aby wysłać zapytanie.</p>
+    <form id="contact-form">
+      <div class="input-group">
+        <label for="name">Imię i nazwisko:</label>
+        <input type="text" id="name" name="Imię i nazwisko" required>
+      </div>
+      <div class="input-group">
+        <label for="phone">Numer kontaktowy:</label>
+        <input type="tel" id="phone" name="Numer kontaktowy" required>
+      </div>
+      <div class="input-group">
+        <label for="email">Adres e-mail:</label>
+        <input type="email" id="email" name="Adres e-mail" required>
+      </div>
+      <div class="flex justify-end gap-4 mt-6">
+        <button type="button" id="close-modal-btn" class="btn">Anuluj</button>
+        <button type="submit" id="send-inquiry-btn" class="btn primary">Wyślij zapytanie</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div id="toast" class="toast"></div>
+
+<footer class="footer">
+  <div class="container">
+    © 2025 Rollo-Pro.pl — Profesjonalny producent rolet i osłon okiennych.
+  </div>
+</footer>
+
+<script>
+  // --- Elementy DOM ---
+  const contactModal = document.getElementById('contact-modal');
+  const openContactModalBtn = document.getElementById('open-contact-modal-btn');
+  const closeModalBtn = document.getElementById('close-modal-btn');
+  const contactForm = document.getElementById('contact-form');
+  const sendInquiryBtn = document.getElementById('send-inquiry-btn');
+  const toastElement = document.getElementById('toast');
+
+  // --- Funkcje pomocnicze ---
+  function toast(message, isSuccess = true) {
+      toastElement.textContent = message;
+      toastElement.style.backgroundColor = isSuccess ? '#28a745' : '#dc3545';
+      toastElement.className = "toast show";
+      setTimeout(() => { toastElement.className = toastElement.className.replace("show", ""); }, 4000);
+  }
+
+  function updateCartCounter() {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    const counter = document.getElementById('cart-counter');
+    counter.style.display = cart.length > 0 ? 'flex' : 'none';
+    counter.textContent = cart.length;
+  }
+
+  function removeFromCart(productId) {
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    cart = cart.filter(product => product.id !== productId);
+    localStorage.setItem('cart', JSON.stringify(cart));
+    displayCart();
+    updateCartCounter();
+  }
+
+  function displayCart() {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    const cartContainer = document.getElementById('cart-container');
+    const cartSummary = document.getElementById('cart-summary');
+    const totalPriceEl = document.getElementById('total-price');
+    let totalPrice = 0;
+
+    if (cart.length === 0) {
+      cartContainer.innerHTML = '<p class="text-center text-gray-500">Koszyk jest pusty.</p>';
+      cartSummary.style.display = 'none';
+      return;
+    }
+    
+    cartSummary.style.display = 'block';
+
+    let tableHTML = `<table class="min-w-full bg-white"><thead class="bg-gray-100"><tr>
+      <th class="py-2 px-4 text-left">Produkt</th><th class="py-2 px-4 text-left">Szczegóły</th>
+      <th class="py-2 px-4 text-right">Cena</th><th class="py-2 px-4 text-center">Akcje</th>
+      </tr></thead><tbody>`;
+
+    cart.forEach(product => {
+      const details = [
+        `Wymiary: ${product.width} x ${product.height} cm`,
+        `Profil: ${product.profile}`, `Tkanina: ${product.material}`, `Montaż: ${product.mounting}`,
+        ...(product.options && product.options.length > 0 ? [`Opcje: ${product.options.join(', ')}`] : [])
+      ].join('<br>');
+
+      tableHTML += `<tr class="border-b">
+          <td class="py-4 px-4 font-bold">${product.type}</td>
+          <td class="py-4 px-4 text-sm leading-relaxed">${details}</td>
+          <td class="py-4 px-4 text-right">${product.price.toFixed(2).replace('.', ',')} zł</td>
+          <td class="py-4 px-4 text-center"><button onclick="removeFromCart(${product.id})" class="text-red-500 hover:text-red-700 font-semibold">Usuń</button></td>
+        </tr>`;
+      totalPrice += product.price;
+    });
+
+    tableHTML += '</tbody></table>';
+    cartContainer.innerHTML = tableHTML;
+    totalPriceEl.textContent = `${totalPrice.toFixed(2).replace('.', ',')} zł`;
+  }
+
+  // --- NOWA LOGIKA WYSYŁKI Z UŻYCIEM FETCH I FORMSUBMIT ---
+  contactForm.addEventListener('submit', function(event) {
+    event.preventDefault(); // Zatrzymaj domyślną wysyłkę formularza
+
+    const formEndpoint = 'https://formsubmit.co/ajax/rolety.screen@gmail.com'; // <-- WAŻNE: WKLEJ TUTAJ SWÓJ URL!
+
+    const formData = new FormData(contactForm);
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    const totalPrice = cart.reduce((sum, product) => sum + product.price, 0);
+
+    // Formatowanie zawartości koszyka do tekstu
+    let cartDetails = '';
+    cart.forEach((product, index) => {
+      cartDetails += `
+        Produkt ${index + 1}: ${product.type}
+        - Wymiary: ${product.width} x ${product.height} cm
+        - Profil: ${product.profile}
+        - Tkanina: ${product.material}
+        - Montaż: ${product.mounting}
+        - Opcje: ${product.options.join(', ') || 'brak'}
+        - Cena: ${product.price.toFixed(2).replace('.', ',')} zł
+        --------------------\n
+      `;
+    });
+    cartDetails += `SUMA ZAMÓWIENIA: ${totalPrice.toFixed(2).replace('.', ',')} zł`;
+    
+    // Dodanie sformatowanego koszyka i tematu do danych formularza
+    formData.append('Zamówienie', cartDetails);
+    formData.append('_subject', `Nowe zapytanie o wycenę od ${formData.get('Imię i nazwisko')}`);
+    
+    // Zablokuj przycisk, aby zapobiec wielokrotnemu klikaniu
+    sendInquiryBtn.disabled = true;
+    sendInquiryBtn.textContent = 'Wysyłanie...';
+
+    // Wysłanie danych do FormSubmit
+    fetch(formEndpoint, {
+      method: 'POST',
+      body: formData,
+      headers: {
+        'Accept': 'application/json'
+      }
+    })
+    .then(response => response.json())
+    .then(data => {
+      console.log(data); // Odpowiedź z serwera
+      toast('Dziękujemy! Twoje zapytanie zostało wysłane.');
+      contactModal.style.display = 'none'; // Ukryj modal
+      contactForm.reset(); // Wyczyść formularz
+      localStorage.removeItem('cart'); // Opcjonalnie: wyczyść koszyk po wysłaniu
+      displayCart();
+      updateCartCounter();
+    })
+    .catch(error => {
+      console.error(error);
+      toast('Wystąpił błąd. Spróbuj ponownie.', false);
+    })
+    .finally(() => {
+      // Odblokuj przycisk po zakończeniu
+      sendInquiryBtn.disabled = false;
+      sendInquiryBtn.textContent = 'Wyślij zapytanie';
+    });
+  });
+
+  // --- Event Listeners do otwierania/zamykania modala ---
+  openContactModalBtn.addEventListener('click', () => {
+    contactModal.style.display = 'flex';
+  });
+
+  closeModalBtn.addEventListener('click', () => {
+    contactModal.style.display = 'none';
+  });
+  
+  // --- Inicjalizacja strony ---
+  window.onload = function() {
+    displayCart();
+    updateCartCounter();
+  };
+</script>
+
+</body>
+</html>

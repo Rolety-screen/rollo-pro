@@ -1,0 +1,4395 @@
+[
+  {
+    "nazwa": "ALASCO REFLEX 1029",
+    "cena_za_m2": 115.75,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Alasco-Reflex-1029.png"
+  },
+  {
+    "nazwa": "ALASCO REFLEX 1077",
+    "cena_za_m2": 92.4,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Alasco-Reflex-1077.png"
+  },
+  {
+    "nazwa": "ALASCO REFLEX 2320",
+    "cena_za_m2": 58.12,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Alasco-Reflex-2320.png"
+  },
+  {
+    "nazwa": "ALASCO REFLEX 2372",
+    "cena_za_m2": 134.9,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Alasco-Reflex-2372.png"
+  },
+  {
+    "nazwa": "ALASCO REFLEX 2383",
+    "cena_za_m2": 77.21,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Alasco-Reflex-2383.png"
+  },
+  {
+    "nazwa": "ALASCO REFLEX 4750",
+    "cena_za_m2": 64.05,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Alasco-Reflex-4750.png"
+  },
+  {
+    "nazwa": "ALASCO REFLEX 9134",
+    "cena_za_m2": 105.88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Alasco-Reflex-9134.png"
+  },
+  {
+    "nazwa": "ALASCO REFLEX 9178",
+    "cena_za_m2": 49.5,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Alasco-Reflex-9178.png"
+  },
+  {
+    "nazwa": "ALASCO REFLEX 9210",
+    "cena_za_m2": 88.66,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Alasco-Reflex-9210.png"
+  },
+  {
+    "nazwa": "ALASCO REFLEX 9211",
+    "cena_za_m2": 121.33,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Alasco-Reflex-9211.png"
+  },
+  {
+    "nazwa": "ARAGONIT 8900",
+    "cena_za_m2": 80.25,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Aragonit-8900.png"
+  },
+  {
+    "nazwa": "ARAGONIT 8901",
+    "cena_za_m2": 95.33,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Aragonit-8901.png"
+  },
+  {
+    "nazwa": "ARAGONIT 8902",
+    "cena_za_m2": 128.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Aragonit-8902.png"
+  },
+  {
+    "nazwa": "ARAGONIT 8903",
+    "cena_za_m2": 107.01,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Aragonit-8903.png"
+  },
+  {
+    "nazwa": "ARAGONIT 8905",
+    "cena_za_m2": 39.87,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Aragonit-8905.png"
+  },
+  {
+    "nazwa": "ATURI 1900",
+    "cena_za_m2": 99.3,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Aturi-1900.png"
+  },
+  {
+    "nazwa": "ATURI 1903",
+    "cena_za_m2": 81.54,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Aturi-1903.png"
+  },
+  {
+    "nazwa": "ATURI 1905",
+    "cena_za_m2": 145.22,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Aturi-1905.png"
+  },
+  {
+    "nazwa": "ATURI 1906",
+    "cena_za_m2": 33.78,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Aturi-1906.png"
+  },
+  {
+    "nazwa": "ATURI 1909",
+    "cena_za_m2": 108.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Aturi-1909.png"
+  },
+  {
+    "nazwa": "ATURI 1910",
+    "cena_za_m2": 67.5,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Aturi-1910.png"
+  },
+  {
+    "nazwa": "AWANGARDA 01",
+    "cena_za_m2": 100.8,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Awangarda-01.png"
+  },
+  {
+    "nazwa": "AWANGARDA 02",
+    "cena_za_m2": 77.04,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Awangarda-02.png"
+  },
+  {
+    "nazwa": "AWANGARDA 03",
+    "cena_za_m2": 118.67,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Awangarda-03.png"
+  },
+  {
+    "nazwa": "AWANGARDA 04",
+    "cena_za_m2": 95.32,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Awangarda-04.png"
+  },
+  {
+    "nazwa": "AWANGARDA 05",
+    "cena_za_m2": 147.15,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Awangarda-05.png"
+  },
+  {
+    "nazwa": "AWANGARDA 09",
+    "cena_za_m2": 82.55,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Awangarda-09.png"
+  },
+  {
+    "nazwa": "AWANGARDA 17",
+    "cena_za_m2": 109.91,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Awangarda-17.png"
+  },
+  {
+    "nazwa": "AWANGARDA 18",
+    "cena_za_m2": 53.69,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Awangarda-18.png"
+  },
+  {
+    "nazwa": "AWANGARDA 19",
+    "cena_za_m2": 126.7,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Awangarda-19.png"
+  },
+  {
+    "nazwa": "AWANGARDA 20",
+    "cena_za_m2": 61.45,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Awangarda-20.png"
+  },
+  {
+    "nazwa": "AWANGARDA 21",
+    "cena_za_m2": 79.99,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Awangarda-21.png"
+  },
+  {
+    "nazwa": "AWANGARDA 22",
+    "cena_za_m2": 104.22,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Awangarda-22.png"
+  },
+  {
+    "nazwa": "AWANGARDA 23",
+    "cena_za_m2": 48.01,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Awangarda-23.png"
+  },
+  {
+    "nazwa": "AWANGARDA 24",
+    "cena_za_m2": 139.56,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Awangarda-24.png"
+  },
+  {
+    "nazwa": "AWANGARDA 25",
+    "cena_za_m2": 85.38,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Awangarda-25.png"
+  },
+  {
+    "nazwa": "AWANGARDA 26",
+    "cena_za_m2": 101.99,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Awangarda-26.png"
+  },
+  {
+    "nazwa": "AWANGARDA 28",
+    "cena_za_m2": 63.88,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Awangarda-28.png"
+  },
+  {
+    "nazwa": "AWANGARDA 29",
+    "cena_za_m2": 78.44,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Awangarda-29.png"
+  },
+  {
+    "nazwa": "AWANGARDA 30",
+    "cena_za_m2": 112.5,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Awangarda-30.png"
+  },
+  {
+    "nazwa": "AWANGARDA 31",
+    "cena_za_m2": 140.01,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Awangarda-31.png"
+  },
+  {
+    "nazwa": "BASEL 1203",
+    "cena_za_m2": 88.02,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-1203.png"
+  },
+  {
+    "nazwa": "BASEL 1204",
+    "cena_za_m2": 103.56,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-1204.png"
+  },
+  {
+    "nazwa": "BASEL 1207",
+    "cena_za_m2": 69.19,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-1207.png"
+  },
+  {
+    "nazwa": "BASEL 1213",
+    "cena_za_m2": 127.44,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-1213.png"
+  },
+  {
+    "nazwa": "BASEL 1215",
+    "cena_za_m2": 57.88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-1215.png"
+  },
+  {
+    "nazwa": "BASEL 1216",
+    "cena_za_m2": 149.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-1216.png"
+  },
+  {
+    "nazwa": "BASEL 1217",
+    "cena_za_m2": 35.67,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-1217.png"
+  },
+  {
+    "nazwa": "BASEL 1218",
+    "cena_za_m2": 83.21,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-1218.png"
+  },
+  {
+    "nazwa": "BASEL 1220",
+    "cena_za_m2": 117.88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-1220.png"
+  },
+  {
+    "nazwa": "BASEL PEARL 1253",
+    "cena_za_m2": 54.77,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-Pearl-1253.png"
+  },
+  {
+    "nazwa": "BASEL PEARL 1256",
+    "cena_za_m2": 76.8,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-Pearl-1256.png"
+  },
+  {
+    "nazwa": "BASEL PEARL 1257",
+    "cena_za_m2": 142.34,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-Pearl-1257.png"
+  },
+  {
+    "nazwa": "BASEL PEARL 1263",
+    "cena_za_m2": 119.55,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-Pearl-1263.png"
+  },
+  {
+    "nazwa": "BASEL PEARL 1265",
+    "cena_za_m2": 45.28,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-Pearl-1265.png"
+  },
+  {
+    "nazwa": "BASEL PEARL 1266",
+    "cena_za_m2": 82,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-Pearl-1266.png"
+  },
+  {
+    "nazwa": "BASEL PEARL 1268",
+    "cena_za_m2": 105.11,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-Pearl-1268.png"
+  },
+  {
+    "nazwa": "BASEL PEARL 1270",
+    "cena_za_m2": 133.4,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-Pearl-1270.png"
+  },
+ 
+  {
+    "nazwa": "BASEL PEARL 1284",
+    "cena_za_m2": 88.67,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-Pearl-1284.png"
+  },
+  {
+    "nazwa": "BASEL PEARL 1285",
+    "cena_za_m2": 101.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-Pearl-1285.png"
+  },
+  {
+    "nazwa": "BASEL PEARL 1286",
+    "cena_za_m2": 72.33,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-Pearl-1286.png"
+  },
+  {
+    "nazwa": "BASEL PEARL 1287",
+    "cena_za_m2": 140.89,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-Pearl-1287.png"
+  },
+  {
+    "nazwa": "BASEL PEARL 1288",
+    "cena_za_m2": 94.67,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-Pearl-1288.png"
+  },
+  {
+    "nazwa": "BASEL PEARL 1289",
+    "cena_za_m2": 113.11,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-Pearl-1289.png"
+  },
+  {
+    "nazwa": "BASEL PEARL 1290",
+    "cena_za_m2": 49,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-Pearl-1290.png"
+  },
+  {
+    "nazwa": "BASEL PEARL 1291",
+    "cena_za_m2": 80.5,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-Pearl-1291.png"
+  },
+  {
+    "nazwa": "BASEL PEARL 1292",
+    "cena_za_m2": 107.89,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-Pearl-1292.png"
+  },
+  {
+    "nazwa": "BASEL PEARL 1293",
+    "cena_za_m2": 66.54,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Basel-Pearl-1293.png"
+  },
+  
+  {
+    "nazwa": "BOLDER TOPAR 0135",
+    "cena_za_m2": 105.67,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Bolder-Topar-0135.png"
+  },
+  {
+    "nazwa": "BOLDER TOPAR 0136",
+    "cena_za_m2": 62.11,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Bolder-Topar-0136.png"
+  },
+  {
+    "nazwa": "BOLDER TOPAR 0137",
+    "cena_za_m2": 148.9,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Bolder-Topar-0137.png"
+  },
+  {
+    "nazwa": "BOLDER TOPAR 0138",
+    "cena_za_m2": 90,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Bolder-Topar-0138.png"
+  },
+  {
+    "nazwa": "BOLDER TOPAR 0139",
+    "cena_za_m2": 116.34,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Bolder-Topar-0139.png"
+  },
+  {
+    "nazwa": "BONSAI 6791",
+    "cena_za_m2": 75.88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Bonsai-6791.png"
+  },
+  {
+    "nazwa": "BONSAI 6792",
+    "cena_za_m2": 133.12,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Bonsai-6792.png"
+  },
+  {
+    "nazwa": "BONSAI 6793",
+    "cena_za_m2": 50.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Bonsai-6793.png"
+  },
+  
+  {
+    "nazwa": "BRISBANE 8101",
+    "cena_za_m2": 105.77,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Brisbane-8101.png"
+  },
+  {
+    "nazwa": "BRISBANE 8102",
+    "cena_za_m2": 61.12,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Brisbane-8102.png"
+  },
+  {
+    "nazwa": "BRISBANE 8103",
+    "cena_za_m2": 140.05,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Brisbane-8103.png"
+  },
+  {
+    "nazwa": "BRISBANE 8104",
+    "cena_za_m2": 75.33,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Brisbane-8104.png"
+  },
+  {
+    "nazwa": "BRISBANE 8105",
+    "cena_za_m2": 98.44,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Brisbane-8105.png"
+  },
+  
+  {
+    "nazwa": "BRISBANE 8108",
+    "cena_za_m2": 133.01,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Brisbane-8108.png"
+  },
+  {
+    "nazwa": "BRIX 1100",
+    "cena_za_m2": 45.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Brix-1100.png"
+  },
+  {
+    "nazwa": "BRIX 1102",
+    "cena_za_m2": 80.6,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Brix-1102.png"
+  },
+  {
+    "nazwa": "BRIX 1103",
+    "cena_za_m2": 102.78,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Brix-1103.png"
+  },
+  {
+    "nazwa": "BRIX 1104",
+    "cena_za_m2": 63.55,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Brix-1104.png"
+  },
+  {
+    "nazwa": "BRIX 1105",
+    "cena_za_m2": 118.9,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Brix-1105.png"
+  },
+  {
+    "nazwa": "BRIX 1106",
+    "cena_za_m2": 70.01,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Brix-1106.png"
+  },
+  {
+    "nazwa": "BRIX 1107",
+    "cena_za_m2": 144.33,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Brix-1107.png"
+  },
+  {
+    "nazwa": "BRIX 1108",
+    "cena_za_m2": 85.12,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Brix-1108.png"
+  },
+  {
+    "nazwa": "BRIX 1109",
+    "cena_za_m2": 97.54,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Brix-1109.png"
+  },
+  {
+    "nazwa": "BRIX 1110",
+    "cena_za_m2": 121.22,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Brix-1110.png"
+  },
+  {
+    "nazwa": "BRIX 1111",
+    "cena_za_m2": 55.6,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Brix-1111.png"
+  },
+  {
+    "nazwa": "BRIX 1112",
+    "cena_za_m2": 139.78,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Brix-1112.png"
+  },
+  {
+    "nazwa": "BRIX 1113",
+    "cena_za_m2": 82.33,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Brix-1113.png"
+  },
+  {
+    "nazwa": "BRIX 1114",
+    "cena_za_m2": 108.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Brix-1114.png"
+  },
+  {
+    "nazwa": "BRIX 1115",
+    "cena_za_m2": 66.77,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Brix-1115.png"
+  },
+  {
+    "nazwa": "BRODIE 10204",
+    "cena_za_m2": 125.1,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Brodie-10204.png"
+  },
+  {
+    "nazwa": "BRODIE 11500",
+    "cena_za_m2": 94.05,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Brodie-11500.png"
+  },
+  
+  {
+    "nazwa": "BRUSSELS 1300",
+    "cena_za_m2": 82.66,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Brussels-1300.png"
+  },
+  
+  
+  {
+    "nazwa": "BUZZ TOPAR 0116",
+    "cena_za_m2": 105.77,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Buzz-Topar-0116.png"
+  },
+  {
+    "nazwa": "BUZZ TOPAR 0117",
+    "cena_za_m2": 67.23,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Buzz-Topar-0117.png"
+  },
+  {
+    "nazwa": "BUZZ TOPAR 0118",
+    "cena_za_m2": 122.9,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Buzz-Topar-0118.png"
+  },
+  
+  {
+    "nazwa": "CALIFORNIA 1",
+    "cena_za_m2": 130.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/California-1.png"
+  },
+  
+  {
+    "nazwa": "CALIFORNIA 3",
+    "cena_za_m2": 105.11,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/California-3.png"
+  },
+  {
+    "nazwa": "CAPRI TOPAR 0130",
+    "cena_za_m2": 62.9,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Capri-Topar-0130.png"
+  },
+  {
+    "nazwa": "CAPRI TOPAR 0131",
+    "cena_za_m2": 144.34,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Capri-Topar-0131.png"
+  },
+  {
+    "nazwa": "CHARLOTTA 6812",
+    "cena_za_m2": 89.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Charlotta-6812.png"
+  },
+  {
+    "nazwa": "CHERRY TREE 6101",
+    "cena_za_m2": 100.22,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Cherry-Tree-6101.png"
+  },
+  {
+    "nazwa": "Chintz Topar Plus 0103",
+    "cena_za_m2": 55.66,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Chintz-Topar-Plus-0103.png"
+  },
+  {
+    "nazwa": "Chintz Topar Plus 0204",
+    "cena_za_m2": 128.8,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Chintz-Topar-Plus-0204.png"
+  },
+  {
+    "nazwa": "Chintz Topar Plus 0711",
+    "cena_za_m2": 77.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Chintz-Topar-Plus-0711.png"
+  },
+  {
+    "nazwa": "Chintz Topar Plus 1000",
+    "cena_za_m2": 109.11,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Chintz-Topar-Plus-1000.png"
+  },
+  {
+    "nazwa": "CHINTZ TOPAR PLUS 2100",
+    "cena_za_m2": 64.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Chintz-Topar-Plus-2100.png"
+  },
+  {
+    "nazwa": "Chintz Topar Plus 2759",
+    "cena_za_m2": 145.22,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Chintz-Topar-Plus-2759.png"
+  },
+  {
+    "nazwa": "Chintz Topar Plus 3232",
+    "cena_za_m2": 90,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Chintz-Topar-Plus-3232.png"
+  },
+  {
+    "nazwa": "CHINTZ TOPAR PLUS 3400",
+    "cena_za_m2": 118.33,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Chintz-Topar-Plus-3400.png"
+  },
+  {
+    "nazwa": "Chintz Topar Plus 3900",
+    "cena_za_m2": 72.1,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Chintz-Topar-Plus-3900.png"
+  },
+ 
+  {
+    "nazwa": "Chintz Topar Plus 4150",
+    "cena_za_m2": 88.88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Chintz-Topar-Plus-4150.png"
+  },
+  {
+    "nazwa": "CHINTZ TOPAR PLUS 4235",
+    "cena_za_m2": 105.5,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Chintz-Topar-Plus-4235.png"
+  },
+  {
+    "nazwa": "CHINTZ TOPAR PLUS 4314",
+    "cena_za_m2": 61.21,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Chintz-Topar-Plus-4314.png"
+  },
+  {
+    "nazwa": "CHINTZ TOPAR PLUS 4450",
+    "cena_za_m2": 140,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Chintz-Topar-Plus-4450.png"
+  },
+  {
+    "nazwa": "Chintz Topar Plus 4460",
+    "cena_za_m2": 85.77,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Chintz-Topar-Plus-4460.png"
+  },
+  {
+    "nazwa": "Chintz Topar Plus 4790",
+    "cena_za_m2": 109.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Chintz-Topar-Plus-4790.png"
+  },
+ 
+  {
+    "nazwa": "Chintz Topar Plus 5101",
+    "cena_za_m2": 122.2,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Chintz-Topar-Plus-5101.png"
+  },
+  {
+    "nazwa": "Chintz Topar Plus 5730",
+    "cena_za_m2": 78.88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Chintz-Topar-Plus-5730.png"
+  },
+  
+  {
+    "nazwa": "COLETTE TOPAR 0132",
+    "cena_za_m2": 88.01,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Colette-Topar-0132.png"
+  },
+  
+  {
+    "nazwa": "CRUSH DB 0103",
+    "cena_za_m2": 94.05,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Db-0103.png"
+  },
+  {
+    "nazwa": "CRUSH DB 0204",
+    "cena_za_m2": 78.5,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Db-0204.png"
+  },
+  {
+    "nazwa": "CRUSH DB 1113",
+    "cena_za_m2": 109.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Db-1113.png"
+  },
+  {
+    "nazwa": "CRUSH DB 1674",
+    "cena_za_m2": 65.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Db-1674.png"
+  },
+  {
+    "nazwa": "CRUSH DB 1999",
+    "cena_za_m2": 137.21,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Db-1999.png"
+  },
+  
+  {
+    "nazwa": "CRUSH DB 2603",
+    "cena_za_m2": 101.44,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Db-2603.png"
+  },
+  {
+    "nazwa": "CRUSH DB 3121",
+    "cena_za_m2": 56.78,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Db-3121.png"
+  },
+  {
+    "nazwa": "CRUSH DB 3417",
+    "cena_za_m2": 142.3,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Db-3417.png"
+  },
+  {
+    "nazwa": "CRUSH DB 4306",
+    "cena_za_m2": 93.1,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Db-4306.png"
+  },
+  
+  {
+    "nazwa": "CRUSH DB 4570",
+    "cena_za_m2": 70.88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Db-4570.png"
+  },
+  {
+    "nazwa": "CRUSH DB 4690",
+    "cena_za_m2": 136.21,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Db-4690.png"
+  },
+  {
+    "nazwa": "CRUSH DB 4763",
+    "cena_za_m2": 85.66,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Db-4763.png"
+  },
+  
+  {
+    "nazwa": "CRUSH DB 5459",
+    "cena_za_m2": 128.55,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Db-5459.png"
+  },
+  
+  {
+    "nazwa": "CRUSH TOPAR PLUS 0204",
+    "cena_za_m2": 99.88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Topar-Plus-0204.png"
+  },
+  {
+    "nazwa": "CRUSH TOPAR PLUS 0711",
+    "cena_za_m2": 118.22,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Topar-Plus-0711.png"
+  },
+  {
+    "nazwa": "CRUSH TOPAR PLUS 1000",
+    "cena_za_m2": 52.1,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Topar-Plus-1000.png"
+  },
+  {
+    "nazwa": "CRUSH TOPAR PLUS 1650",
+    "cena_za_m2": 140.55,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Topar-Plus-1650.png"
+  },
+  {
+    "nazwa": "CRUSH TOPAR PLUS 1818",
+    "cena_za_m2": 88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Topar-Plus-1818.png"
+  },
+  {
+    "nazwa": "CRUSH TOPAR PLUS 1998",
+    "cena_za_m2": 105.77,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Topar-Plus-1998.png"
+  },
+  {
+    "nazwa": "CRUSH TOPAR PLUS 2100",
+    "cena_za_m2": 67.23,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Topar-Plus-2100.png"
+  },
+  {
+    "nazwa": "CRUSH TOPAR PLUS 2501",
+    "cena_za_m2": 122.9,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Topar-Plus-2501.png"
+  },
+  {
+    "nazwa": "CRUSH TOPAR PLUS 2656",
+    "cena_za_m2": 81.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Topar-Plus-2656.png"
+  },
+  {
+    "nazwa": "CRUSH TOPAR PLUS 2663",
+    "cena_za_m2": 109.11,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Topar-Plus-2663.png"
+  },
+  {
+    "nazwa": "CRUSH TOPAR PLUS 3507",
+    "cena_za_m2": 64.88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Topar-Plus-3507.png"
+  },
+  
+  {
+    "nazwa": "CRUSH TOPAR PLUS 4653",
+    "cena_za_m2": 79.22,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Topar-Plus-4653.png"
+  },
+  {
+    "nazwa": "CRUSH TOPAR PLUS 4801",
+    "cena_za_m2": 102.55,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Topar-Plus-4801.png"
+  },
+  {
+    "nazwa": "CRUSH TOPAR PLUS 5340",
+    "cena_za_m2": 58.76,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Topar-Plus-5340.png"
+  },
+  {
+    "nazwa": "CRUSH TOPAR PLUS 5440",
+    "cena_za_m2": 140,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Topar-Plus-5440.png"
+  },
+  {
+    "nazwa": "CRUSH TOPAR PLUS 5601",
+    "cena_za_m2": 88.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Topar-Plus-5601.png"
+  },
+  {
+    "nazwa": "CRUSH TOPAR PLUS 5730",
+    "cena_za_m2": 115.67,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Crush-Topar-Plus-5730.png"
+  },
+  
+  {
+    "nazwa": "CYRKON 6640",
+    "cena_za_m2": 50.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Cyrkon-6640.png"
+  },
+  {
+    "nazwa": "CYRKON 6641",
+    "cena_za_m2": 88.9,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Cyrkon-6641.png"
+  },
+  {
+    "nazwa": "DALIA 0100",
+    "cena_za_m2": 105.77,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Dalia-0100.png"
+  },
+ 
+  {
+    "nazwa": "DALIA 0400",
+    "cena_za_m2": 140.05,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Dalia-0400.png"
+  },
+  {
+    "nazwa": "DALIA 0500",
+    "cena_za_m2": 75.33,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Dalia-0500.png"
+  },
+  {
+    "nazwa": "DALIA 0600",
+    "cena_za_m2": 98.44,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Dalia-0600.png"
+  },
+  {
+    "nazwa": "DAYO 9040",
+    "cena_za_m2": 115.65,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Dayo-9040.png"
+  },
+  
+  {
+    "nazwa": "DENIM 7912",
+    "cena_za_m2": 85.12,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Denim-7912.png"
+  },
+  {
+    "nazwa": "DENIM 7913",
+    "cena_za_m2": 97.54,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Denim-7913.png"
+  },
+  
+  {
+    "nazwa": "DENIM 7916",
+    "cena_za_m2": 55.6,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Denim-7916.png"
+  },
+  {
+    "nazwa": "DENIM 7919",
+    "cena_za_m2": 139.78,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Denim-7919.png"
+  },
+  
+  {
+    "nazwa": "DENIM 7928",
+    "cena_za_m2": 108.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Denim-7928.png"
+  },
+ 
+  {
+    "nazwa": "DOTS 691",
+    "cena_za_m2": 94.05,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Dots-691.png"
+  },
+  
+  {
+    "nazwa": "DREAM ONITAS 1500",
+    "cena_za_m2": 109.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Dream-Onitas-1500.png"
+  },
+  {
+    "nazwa": "DREAM SATINO 0204",
+    "cena_za_m2": 65.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Dream-Satino-0204.png"
+  },
+  
+  {
+    "nazwa": "FEMI 0150",
+    "cena_za_m2": 62.9,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Femi-0150.png"
+  },
+  {
+    "nazwa": "FEMI 0200",
+    "cena_za_m2": 144.34,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Femi-0200.png"
+  },
+  {
+    "nazwa": "FEMI 0220",
+    "cena_za_m2": 89.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Femi-0220.png"
+  },
+  {
+    "nazwa": "FEMI 0510",
+    "cena_za_m2": 100.22,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Femi-0510.png"
+  },
+  {
+    "nazwa": "FEMI 0530",
+    "cena_za_m2": 55.66,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Femi-0530.png"
+  },
+  {
+    "nazwa": "FEMI 0540",
+    "cena_za_m2": 128.8,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Femi-0540.png"
+  },
+  {
+    "nazwa": "FEMI 0610",
+    "cena_za_m2": 77.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Femi-0610.png"
+  },
+  {
+    "nazwa": "FEMI 0819",
+    "cena_za_m2": 109.11,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Femi-0819.png"
+  },
+  {
+    "nazwa": "FEMI 0923",
+    "cena_za_m2": 64.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Femi-0923.png"
+  },
+  {
+    "nazwa": "FEMI 0931",
+    "cena_za_m2": 145.22,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Femi-0931.png"
+  },
+  {
+    "nazwa": "FEMI 0970",
+    "cena_za_m2": 90,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Femi-0970.png"
+  },
+  {
+    "nazwa": "FEMI 1290",
+    "cena_za_m2": 118.33,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Femi-1290.png"
+  },
+  {
+    "nazwa": "FEMI 1300",
+    "cena_za_m2": 72.1,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Femi-1300.png"
+  },
+  {
+    "nazwa": "FEMI 1320",
+    "cena_za_m2": 133.44,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Femi-1320.png"
+  },
+  {
+    "nazwa": "FEMI 1330",
+    "cena_za_m2": 88.88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Femi-1330.png"
+  },
+  {
+    "nazwa": "FEMI 6400",
+    "cena_za_m2": 105.5,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Femi-6400.png"
+  },
+  {
+    "nazwa": "FEMI 6420",
+    "cena_za_m2": 61.21,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Femi-6420.png"
+  },
+  {
+    "nazwa": "FEMI 6430",
+    "cena_za_m2": 140,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Femi-6430.png"
+  },
+  {
+    "nazwa": "FEMI 6440",
+    "cena_za_m2": 85.77,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Femi-6440.png"
+  },
+  
+  {
+    "nazwa": "FERN 21500",
+    "cena_za_m2": 109.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Fern-21500.png"
+  },
+ 
+  {
+    "nazwa": "FIORE 2062",
+    "cena_za_m2": 66.78,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Fiore-2062.png"
+  },
+  
+  {
+    "nazwa": "FLAX 1071",
+    "cena_za_m2": 61.12,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Flax-1071.png"
+  },
+  {
+    "nazwa": "FLAX 1072",
+    "cena_za_m2": 140.05,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Flax-1072.png"
+  },
+  {
+    "nazwa": "FLAX 2311",
+    "cena_za_m2": 75.33,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Flax-2311.png"
+  },
+  {
+    "nazwa": "FLAX 2312",
+    "cena_za_m2": 98.44,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Flax-2312.png"
+  },
+  {
+    "nazwa": "FLAX 2319",
+    "cena_za_m2": 115.65,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Flax-2319.png"
+  },
+  {
+    "nazwa": "FLAX 2320",
+    "cena_za_m2": 67.2,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Flax-2320.png"
+  },
+  {
+    "nazwa": "FLAX 4141",
+    "cena_za_m2": 133.01,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Flax-4141.png"
+  },
+  {
+    "nazwa": "FLAX 9084",
+    "cena_za_m2": 45.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Flax-9084.png"
+  },
+  {
+    "nazwa": "FLAX 9140",
+    "cena_za_m2": 80.6,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Flax-9140.png"
+  },
+  
+ 
+  {
+    "nazwa": "FLOWERS 901",
+    "cena_za_m2": 55.6,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Flowers-901.png"
+  },
+  {
+    "nazwa": "FLOWERS 902",
+    "cena_za_m2": 139.78,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Flowers-902.png"
+  },
+  {
+    "nazwa": "FLOWERS 905",
+    "cena_za_m2": 82.33,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Flowers-905.png"
+  },
+  {
+    "nazwa": "FLOWERS 907",
+    "cena_za_m2": 108.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Flowers-907.png"
+  },
+  {
+    "nazwa": "FLOWERS 909",
+    "cena_za_m2": 66.77,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Flowers-909.png"
+  },
+ 
+  {
+    "nazwa": "FRANKFURT 7099",
+    "cena_za_m2": 136.21,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Frankfurt-7099.png"
+  },
+  {
+    "nazwa": "FULA 1120",
+    "cena_za_m2": 85.66,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Fula-1120.png"
+  },
+  {
+    "nazwa": "FULA 1121",
+    "cena_za_m2": 109.9,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Fula-1121.png"
+  },
+  {
+    "nazwa": "FULA 1122",
+    "cena_za_m2": 61.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Fula-1122.png"
+  },
+  {
+    "nazwa": "FULA 1124",
+    "cena_za_m2": 128.55,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Fula-1124.png"
+  },
+  {
+    "nazwa": "FULA 1125",
+    "cena_za_m2": 74,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Fula-1125.png"
+  },
+  {
+    "nazwa": "FULA 1126",
+    "cena_za_m2": 99.88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Fula-1126.png"
+  },
+  {
+    "nazwa": "FULA 1127",
+    "cena_za_m2": 118.22,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Fula-1127.png"
+  },
+  {
+    "nazwa": "FULA 1128",
+    "cena_za_m2": 52.1,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Fula-1128.png"
+  },
+  {
+    "nazwa": "FULA 1130",
+    "cena_za_m2": 140.55,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Fula-1130.png"
+  },
+  {
+    "nazwa": "FULA 1131",
+    "cena_za_m2": 88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Fula-1131.png"
+  },
+  {
+    "nazwa": "FUNKY",
+    "cena_za_m2": 105.77,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Funky.png"
+  },
+  
+  {
+    "nazwa": "GENEVE 1921",
+    "cena_za_m2": 133.5,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Geneve-1921.png"
+  },
+  {
+    "nazwa": "GENEVE 1922",
+    "cena_za_m2": 79.22,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Geneve-1922.png"
+  },
+  {
+    "nazwa": "GENEVE 1923",
+    "cena_za_m2": 102.55,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Geneve-1923.png"
+  },
+ 
+  {
+    "nazwa": "Glenn 0000",
+    "cena_za_m2": 76.88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Glenn-0000.png"
+  },
+  {
+    "nazwa": "Glenn 0161",
+    "cena_za_m2": 105.11,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Glenn-0161.png"
+  },
+  {
+    "nazwa": "Glenn 0633",
+    "cena_za_m2": 62.9,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Glenn-0633.png"
+  },
+  {
+    "nazwa": "Glenn 0738",
+    "cena_za_m2": 144.34,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Glenn-0738.png"
+  },
+  {
+    "nazwa": "Glenn 1858",
+    "cena_za_m2": 89.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Glenn-1858.png"
+  },
+  {
+    "nazwa": "Glenn 2334",
+    "cena_za_m2": 100.22,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Glenn-2334.png"
+  },
+  {
+    "nazwa": "Glenn 4532",
+    "cena_za_m2": 55.66,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Glenn-4532.png"
+  },
+  {
+    "nazwa": "Glenn 7131",
+    "cena_za_m2": 128.8,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Glenn-7131.png"
+  },
+  {
+    "nazwa": "GOBI 6100",
+    "cena_za_m2": 77.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Gobi-6100.png"
+  },
+  {
+    "nazwa": "GOBI 6101",
+    "cena_za_m2": 109.11,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Gobi-6101.png"
+  },
+  {
+    "nazwa": "GOBI 6102",
+    "cena_za_m2": 64.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Gobi-6102.png"
+  },
+  {
+    "nazwa": "GOBI 6103",
+    "cena_za_m2": 145.22,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Gobi-6103.png"
+  },
+  {
+    "nazwa": "GOBI 6105",
+    "cena_za_m2": 90,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Gobi-6105.png"
+  },
+  {
+    "nazwa": "GOBI 6108",
+    "cena_za_m2": 118.33,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Gobi-6108.png"
+  },
+  {
+    "nazwa": "GOBI 6110",
+    "cena_za_m2": 72.1,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Gobi-6110.png"
+  },
+  {
+    "nazwa": "GOBI 6112",
+    "cena_za_m2": 133.44,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Gobi-6112.png"
+  },
+  {
+    "nazwa": "GOBI 6113",
+    "cena_za_m2": 88.88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Gobi-6113.png"
+  },
+  {
+    "nazwa": "GOBI 6114",
+    "cena_za_m2": 105.5,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Gobi-6114.png"
+  },
+  {
+    "nazwa": "GOBI 6115",
+    "cena_za_m2": 61.21,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Gobi-6115.png"
+  },
+  {
+    "nazwa": "GOBI 6116",
+    "cena_za_m2": 140,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Gobi-6116.png"
+  },
+  {
+    "nazwa": "GOBI 6117",
+    "cena_za_m2": 85.77,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Gobi-6117.png"
+  },
+  {
+    "nazwa": "GOBI 6118",
+    "cena_za_m2": 109.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Gobi-6118.png"
+  },
+  {
+    "nazwa": "GOBI 6119",
+    "cena_za_m2": 65.34,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Gobi-6119.png"
+  },
+ 
+  {
+    "nazwa": "Grand 0161",
+    "cena_za_m2": 78.88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Grand-0161.png"
+  },
+  {
+    "nazwa": "Grand 0261",
+    "cena_za_m2": 104.55,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Grand-0261.png"
+  },
+  {
+    "nazwa": "Grand 0633",
+    "cena_za_m2": 59.9,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Grand-0633.png"
+  },
+  {
+    "nazwa": "Grand 0738",
+    "cena_za_m2": 137.66,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Grand-0738.png"
+  },
+  {
+    "nazwa": "Grand 0987",
+    "cena_za_m2": 82.1,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Grand-0987.png"
+  },
+  {
+    "nazwa": "Grand 1858",
+    "cena_za_m2": 109.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Grand-1858.png"
+  },
+  {
+    "nazwa": "Grand 2334",
+    "cena_za_m2": 65.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Grand-2334.png"
+  },
+  {
+    "nazwa": "Grand 4532",
+    "cena_za_m2": 140.33,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Grand-4532.png"
+  },
+  {
+    "nazwa": "Grand 4731",
+    "cena_za_m2": 88.01,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Grand-4731.png"
+  },
+  {
+    "nazwa": "Grand 4935",
+    "cena_za_m2": 115.78,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Grand-4935.png"
+  },
+  {
+    "nazwa": "Grand 7131",
+    "cena_za_m2": 72.33,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Grand-7131.png"
+  },
+  {
+    "nazwa": "Grand BO 0000",
+    "cena_za_m2": 133.5,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Grand-Bo-0000.png"
+  },
+  {
+    "nazwa": "Grand BO 0161",
+    "cena_za_m2": 89.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Grand-Bo-0161.png"
+  },
+  {
+    "nazwa": "Grand BO 0633",
+    "cena_za_m2": 105.44,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Grand-Bo-0633.png"
+  },
+  {
+    "nazwa": "Grand BO 0738",
+    "cena_za_m2": 66.78,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Grand-Bo-0738.png"
+  },
+  {
+    "nazwa": "Grand BO 0987",
+    "cena_za_m2": 148.9,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Grand-Bo-0987.png"
+  },
+  {
+    "nazwa": "Grand BO 1858",
+    "cena_za_m2": 92.11,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Grand-Bo-1858.png"
+  },
+  {
+    "nazwa": "Grand BO 2334",
+    "cena_za_m2": 116.34,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Grand-Bo-2334.png"
+  },
+  {
+    "nazwa": "Grand BO 4532",
+    "cena_za_m2": 75.88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Grand-Bo-4532.png"
+  },
+  {
+    "nazwa": "Grand BO 4731",
+    "cena_za_m2": 133.12,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Grand-Bo-4731.png"
+  },
+  {
+    "nazwa": "Grand BO 4935",
+    "cena_za_m2": 50.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Grand-Bo-4935.png"
+  },
+  {
+    "nazwa": "Grand BO 7132",
+    "cena_za_m2": 88.9,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Grand-Bo-7132.png"
+  },
+  
+  {
+    "nazwa": "HELIX 30204",
+    "cena_za_m2": 55.6,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Helix-30204.png"
+  },
+  {
+    "nazwa": "HELIX 31500",
+    "cena_za_m2": 139.78,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Helix-31500.png"
+  },
+  {
+    "nazwa": "HONG KONG 7950",
+    "cena_za_m2": 82.33,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Hong-Kong-7950.png"
+  },
+  {
+    "nazwa": "HONG KONG 7953",
+    "cena_za_m2": 108.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Hong-Kong-7953.png"
+  },
+  {
+    "nazwa": "HONG KONG 7960",
+    "cena_za_m2": 66.77,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Hong-Kong-7960.png"
+  },
+  {
+    "nazwa": "ILLUSION 6243",
+    "cena_za_m2": 125.1,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Illusion-6243.png"
+  },
+  {
+    "nazwa": "ILLUSION 6244",
+    "cena_za_m2": 94.05,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Illusion-6244.png"
+  },
+  
+  {
+    "nazwa": "JAJPUR 6201",
+    "cena_za_m2": 142.3,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Jajpur-6201.png"
+  },
+
+  {
+    "nazwa": "JAJPUR 6203",
+    "cena_za_m2": 115.05,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Jajpur-6203.png"
+  },
+  {
+    "nazwa": "JAJPUR 6205",
+    "cena_za_m2": 70.88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Jajpur-6205.png"
+  },
+  {
+    "nazwa": "JAJPUR 6206",
+    "cena_za_m2": 136.21,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Jajpur-6206.png"
+  },
+  
+  {
+    "nazwa": "JAKARTA 8450",
+    "cena_za_m2": 61.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Jakarta-8450.png"
+  },
+ 
+  {
+    "nazwa": "JASPIS 8202",
+    "cena_za_m2": 118.22,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Jaspis-8202.png"
+  },
+  {
+    "nazwa": "JASPIS 8206",
+    "cena_za_m2": 52.1,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Jaspis-8206.png"
+  },
+  
+  {
+    "nazwa": "KABUL 9345",
+    "cena_za_m2": 88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kabul-9345.png"
+  },
+  {
+    "nazwa": "KALA 7650",
+    "cena_za_m2": 105.77,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kala-7650.png"
+  },
+  {
+    "nazwa": "KALA 7693",
+    "cena_za_m2": 67.23,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kala-7693.png"
+  },
+  
+  {
+    "nazwa": "KALA 7695",
+    "cena_za_m2": 81.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kala-7695.png"
+  },
+  
+  {
+    "nazwa": "KALA 7699",
+    "cena_za_m2": 64.88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kala-7699.png"
+  },
+  {
+    "nazwa": "KALA 7700",
+    "cena_za_m2": 133.5,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kala-7700.png"
+  },
+  {
+    "nazwa": "KALA 7701",
+    "cena_za_m2": 79.22,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kala-7701.png"
+  },
+  {
+    "nazwa": "KAMARI 04",
+    "cena_za_m2": 102.55,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kamari-04.png"
+  },
+  {
+    "nazwa": "KAMARI 05",
+    "cena_za_m2": 58.76,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kamari-05.png"
+  },
+  {
+    "nazwa": "KAMARI 06",
+    "cena_za_m2": 140,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kamari-06.png"
+  },
+  
+  
+  {
+    "nazwa": "KAMARI 16",
+    "cena_za_m2": 76.88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kamari-16.png"
+  },
+  
+  {
+    "nazwa": "KAMARI 18",
+    "cena_za_m2": 62.9,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kamari-18.png"
+  },
+  {
+    "nazwa": "KAMARI 20",
+    "cena_za_m2": 144.34,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kamari-20.png"
+  },
+  {
+    "nazwa": "KAMARI 23",
+    "cena_za_m2": 89.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kamari-23.png"
+  },
+  {
+    "nazwa": "KAMARI 24",
+    "cena_za_m2": 100.22,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kamari-24.png"
+  },
+  
+  {
+    "nazwa": "KAMARI 27",
+    "cena_za_m2": 128.8,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kamari-27.png"
+  },
+ 
+  {
+    "nazwa": "KAMARIA PEARL 204",
+    "cena_za_m2": 109.11,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kamari-Pearl-204.png"
+  },
+  {
+    "nazwa": "KAMARIA PEARL 205",
+    "cena_za_m2": 64.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kamari-Pearl-205.png"
+  },
+  {
+    "nazwa": "KAMARIA PEARL 206",
+    "cena_za_m2": 145.22,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kamari-Pearl-206.png"
+  },
+  {
+    "nazwa": "KAMARIA PEARL 207",
+    "cena_za_m2": 90,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kamari-Pearl-207.png"
+  },
+  {
+    "nazwa": "KAMARIA PEARL 207",
+    "cena_za_m2": 118.33,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kamari-Pearl-207.png"
+  },
+  {
+    "nazwa": "KAMARIA PEARL 209",
+    "cena_za_m2": 72.1,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kamari-Pearl-209.png"
+  },
+  {
+    "nazwa": "KAMARIA PEARL 209",
+    "cena_za_m2": 133.44,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kamari-Pearl-209.png"
+  },
+  {
+    "nazwa": "KAMARIA PEARL 210",
+    "cena_za_m2": 88.88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kamari-Pearl-210.png"
+  },
+  
+  {
+    "nazwa": "KAMARIA PEARL 216",
+    "cena_za_m2": 61.21,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kamari-Pearl-216.png"
+  },
+ 
+  {
+    "nazwa": "KAMARIA PEARL 218",
+    "cena_za_m2": 85.77,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kamari-Pearl-218.png"
+  },
+  {
+    "nazwa": "KAMARIA PEARL 219",
+    "cena_za_m2": 109.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kamari-Pearl-219.png"
+  },
+  {
+    "nazwa": "KAMARIA PEARL 220",
+    "cena_za_m2": 65.34,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kamari-Pearl-220.png"
+  },
+  {
+    "nazwa": "KAMARIA PEARL 222",
+    "cena_za_m2": 122.2,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kamari-Pearl-222.png"
+  },
+  {
+    "nazwa": "KAMARIA PEARL 223",
+    "cena_za_m2": 78.88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kamari-Pearl-223.png"
+  },
+  {
+    "nazwa": "KAMARIA PEARL 224",
+    "cena_za_m2": 104.55,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kamari-Pearl-224.png"
+  },
+  
+  {
+    "nazwa": "KAMARIA PEARL 228",
+    "cena_za_m2": 82.1,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kamari-Pearl-228.png"
+  },
+  {
+    "nazwa": "KANON 5483",
+    "cena_za_m2": 109.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kanon-5483.png"
+  },
+  {
+    "nazwa": "KANON 5484",
+    "cena_za_m2": 65.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kanon-5484.png"
+  },
+  {
+    "nazwa": "KENT 6350",
+    "cena_za_m2": 140.33,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Kent-6350.png"
+  },
+  
+  {
+    "nazwa": "Kolorado 0100",
+    "cena_za_m2": 133.5,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-0100.png"
+  },
+  {
+    "nazwa": "Kolorado 0110",
+    "cena_za_m2": 89.99,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-0110.png"
+  },
+  {
+    "nazwa": "Kolorado 0120",
+    "cena_za_m2": 105.44,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-0120.png"
+  },
+  {
+    "nazwa": "Kolorado 0130",
+    "cena_za_m2": 66.78,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-0130.png"
+  },
+  {
+    "nazwa": "Kolorado 0140",
+    "cena_za_m2": 148.9,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-0140.png"
+  },
+  {
+    "nazwa": "Kolorado 0150",
+    "cena_za_m2": 92.11,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-0150.png"
+  },
+  {
+    "nazwa": "Kolorado 0160",
+    "cena_za_m2": 116.34,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-0160.png"
+  },
+  {
+    "nazwa": "Kolorado 0160",
+    "cena_za_m2": 75.88,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-0160.png"
+  },
+  {
+    "nazwa": "Kolorado 0170",
+    "cena_za_m2": 133.12,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-0170.png"
+  },
+  {
+    "nazwa": "Kolorado 0170",
+    "cena_za_m2": 50.45,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-0170.png"
+  },
+  {
+    "nazwa": "Kolorado 0180",
+    "cena_za_m2": 88.9,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-0180.png"
+  },
+  {
+    "nazwa": "Kolorado 0190",
+    "cena_za_m2": 105.77,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-0190.png"
+  },
+  {
+    "nazwa": "Kolorado 0200",
+    "cena_za_m2": 61.12,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-0200.png"
+  },
+  {
+    "nazwa": "Kolorado 0200",
+    "cena_za_m2": 140.05,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-0200.png"
+  },
+  {
+    "nazwa": "Kolorado 0210",
+    "cena_za_m2": 75.33,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-0210.png"
+  },
+  {
+    "nazwa": "Kolorado 0220",
+    "cena_za_m2": 98.44,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-0220.png"
+  },
+  {
+    "nazwa": "Kolorado 0220",
+    "cena_za_m2": 115.65,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-0220.png"
+  },
+  {
+    "nazwa": "Kolorado 0230",
+    "cena_za_m2": 67.2,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-0230.png"
+  },
+  {
+    "nazwa": "Kolorado 0230",
+    "cena_za_m2": 133.01,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-0230.png"
+  },
+  {
+    "nazwa": "Kolorado 0260",
+    "cena_za_m2": 45.99,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-0260.png"
+  },
+  {
+    "nazwa": "Kolorado 0300",
+    "cena_za_m2": 80.6,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-0300.png"
+  },
+  {
+    "nazwa": "Kolorado 0360",
+    "cena_za_m2": 102.78,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-0360.png"
+  },
+  {
+    "nazwa": "Kolorado 0380",
+    "cena_za_m2": 63.55,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-0380.png"
+  },
+  {
+    "nazwa": "Kolorado 3735",
+    "cena_za_m2": 118.9,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-3735.png"
+  },
+  {
+    "nazwa": "Kolorado 7131",
+    "cena_za_m2": 70.01,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-7131.png"
+  },
+  {
+    "nazwa": "Kolorado BO 5100",
+    "cena_za_m2": 144.33,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-Bo-5100.png"
+  },
+  {
+    "nazwa": "Kolorado BO 5100",
+    "cena_za_m2": 85.12,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-Bo-5100.png"
+  },
+  {
+    "nazwa": "Kolorado BO 5110",
+    "cena_za_m2": 97.54,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-Bo-5110.png"
+  },
+  {
+    "nazwa": "Kolorado BO 5120",
+    "cena_za_m2": 121.22,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-Bo-5120.png"
+  },
+  {
+    "nazwa": "Kolorado BO 5130",
+    "cena_za_m2": 55.6,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-Bo-5130.png"
+  },
+  {
+    "nazwa": "Kolorado BO 5150",
+    "cena_za_m2": 139.78,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-Bo-5150.png"
+  },
+  {
+    "nazwa": "Kolorado BO 5150",
+    "cena_za_m2": 82.33,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-Bo-5150.png"
+  },
+  {
+    "nazwa": "Kolorado BO 5160",
+    "cena_za_m2": 108.45,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-Bo-5160.png"
+  },
+  {
+    "nazwa": "Kolorado BO 5170",
+    "cena_za_m2": 66.77,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-Bo-5170.png"
+  },
+  {
+    "nazwa": "Kolorado BO 5180",
+    "cena_za_m2": 125.1,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-Bo-5180.png"
+  },
+  {
+    "nazwa": "Kolorado BO 5190",
+    "cena_za_m2": 94.05,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-Bo-5190.png"
+  },
+  {
+    "nazwa": "Kolorado BO 5200",
+    "cena_za_m2": 78.5,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-Bo-5200.png"
+  },
+  {
+    "nazwa": "Kolorado BO 5200",
+    "cena_za_m2": 109.99,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-Bo-5200.png"
+  },
+  {
+    "nazwa": "Kolorado BO 5210",
+    "cena_za_m2": 65.45,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-Bo-5210.png"
+  },
+  {
+    "nazwa": "Kolorado BO 5220",
+    "cena_za_m2": 137.21,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-Bo-5220.png"
+  },
+  {
+    "nazwa": "Kolorado BO 5220",
+    "cena_za_m2": 82.66,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-Bo-5220.png"
+  },
+  {
+    "nazwa": "Kolorado BO 5230",
+    "cena_za_m2": 101.44,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-Bo-5230.png"
+  },
+  {
+    "nazwa": "Kolorado BO 5240",
+    "cena_za_m2": 56.78,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-Bo-5240.png"
+  },
+  {
+    "nazwa": "Kolorado BO 5300",
+    "cena_za_m2": 142.3,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-Bo-5300.png"
+  },
+  {
+    "nazwa": "Kolorado BO 5350",
+    "cena_za_m2": 93.1,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-Bo-5350.png"
+  },
+  {
+    "nazwa": "Kolorado BO 5360",
+    "cena_za_m2": 115.05,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-Bo-5360.png"
+  },
+  {
+    "nazwa": "Kolorado BO 5390",
+    "cena_za_m2": 70.88,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-Bo-5390.png"
+  },
+  {
+    "nazwa": "Kolorado BO 5400",
+    "cena_za_m2": 136.21,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Kolorado-Bo-5400.png"
+  },
+  {
+    "nazwa": "LASER GLOSS 1250",
+    "cena_za_m2": 85.66,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Laser-Gloss-1250.png"
+  },
+  {
+    "nazwa": "LASER GLOSS 1500",
+    "cena_za_m2": 109.9,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Laser-Gloss-1500.png"
+  },
+  
+  {
+    "nazwa": "LEIPZIG 8355",
+    "cena_za_m2": 128.55,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Leipzig-8355.png"
+  },
+  {
+    "nazwa": "LEIPZIG 8550",
+    "cena_za_m2": 74,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Leipzig-8550.png"
+  },
+  {
+    "nazwa": "LENO 0204",
+    "cena_za_m2": 99.88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Leno-0204.png"
+  },
+  {
+    "nazwa": "LENO 1300",
+    "cena_za_m2": 118.22,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Leno-1300.png"
+  },
+  {
+    "nazwa": "LENO 1888",
+    "cena_za_m2": 52.1,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Leno-1888.png"
+  },
+  {
+    "nazwa": "LERATO 9290",
+    "cena_za_m2": 140.55,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Lerato-9290.png"
+  },
+  {
+    "nazwa": "LERATO 9291",
+    "cena_za_m2": 88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Lerato-9291.png"
+  },
+  {
+    "nazwa": "LERATO 9292",
+    "cena_za_m2": 105.77,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Lerato-9292.png"
+  },
+  {
+    "nazwa": "LERATO 9293",
+    "cena_za_m2": 67.23,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Lerato-9293.png"
+  },
+  
+  {
+    "nazwa": "LUMINA SHEER 0103",
+    "cena_za_m2": 89.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Lumina-Sheer-0103.png"
+  },
+  {
+    "nazwa": "LUMINA SHEER 0204",
+    "cena_za_m2": 100.22,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Lumina-Sheer-0204.png"
+  },
+  {
+    "nazwa": "LUMINA SHEER 0500",
+    "cena_za_m2": 55.66,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Lumina-Sheer-0500.png"
+  },
+  {
+    "nazwa": "LUMINA SHEER 0999",
+    "cena_za_m2": 128.8,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Lumina-Sheer-0999.png"
+  },
+  {
+    "nazwa": "LUMINA SHEER 1320",
+    "cena_za_m2": 77.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Lumina-Sheer-1320.png"
+  },
+  {
+    "nazwa": "LUMINA SHEER 1510",
+    "cena_za_m2": 109.11,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Lumina-Sheer-1510.png"
+  },
+  {
+    "nazwa": "LUMINA SHEER 4630",
+    "cena_za_m2": 64.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Lumina-Sheer-4630.png"
+  },
+  {
+    "nazwa": "LUMINA SHEER 4935",
+    "cena_za_m2": 145.22,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Lumina-Sheer-4935.png"
+  },
+  {
+    "nazwa": "MARACAY 8940",
+    "cena_za_m2": 90,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Maracay-8940.png"
+  },
+  {
+    "nazwa": "MARACAY 8941",
+    "cena_za_m2": 118.33,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Maracay-8941.png"
+  },
+  {
+    "nazwa": "MARACAY 8942",
+    "cena_za_m2": 72.1,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Maracay-8942.png"
+  },
+  
+  {
+    "nazwa": "MARAKESH 41500",
+    "cena_za_m2": 88.88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Marakesh-41500.png"
+  },
+  {
+    "nazwa": "MASERU 6660",
+    "cena_za_m2": 105.5,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Maseru-6660.png"
+  },
+  {
+    "nazwa": "MASERU 6661",
+    "cena_za_m2": 61.21,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Maseru-6661.png"
+  },
+  {
+    "nazwa": "MASERU 6662",
+    "cena_za_m2": 140,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Maseru-6662.png"
+  },
+  {
+    "nazwa": "MASERU 6663",
+    "cena_za_m2": 85.77,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Maseru-6663.png"
+  },
+  
+  {
+    "nazwa": "MESSA 10432",
+    "cena_za_m2": 104.55,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-10432.png"
+  },
+  {
+    "nazwa": "MESSA 10457",
+    "cena_za_m2": 59.9,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-10457.png"
+  },
+  
+  {
+    "nazwa": "MESSA 10460",
+    "cena_za_m2": 82.1,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-10460.png"
+  },
+  {
+    "nazwa": "MESSA 10462",
+    "cena_za_m2": 109.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-10462.png"
+  },
+  
+  {
+    "nazwa": "MESSA 10797",
+    "cena_za_m2": 140.33,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-10797.png"
+  },
+  {
+    "nazwa": "MESSA 10798",
+    "cena_za_m2": 88.01,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-10798.png"
+  },
+  {
+    "nazwa": "MESSA 7220",
+    "cena_za_m2": 115.78,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-7220.png"
+  },
+  {
+    "nazwa": "MESSA 7234",
+    "cena_za_m2": 72.33,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-7234.png"
+  },
+  {
+    "nazwa": "MESSA 7235",
+    "cena_za_m2": 133.5,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-7235.png"
+  },
+  {
+    "nazwa": "MESSA 7236",
+    "cena_za_m2": 89.99,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-7236.png"
+  },
+  
+  {
+    "nazwa": "MESSA 7242",
+    "cena_za_m2": 66.78,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-7242.png"
+  },
+  
+  {
+    "nazwa": "MESSA PEARL 10456",
+    "cena_za_m2": 92.11,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-Pearl-10456.png"
+  },
+  {
+    "nazwa": "MESSA PEARL 10457",
+    "cena_za_m2": 116.34,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-Pearl-10457.png"
+  },
+  {
+    "nazwa": "MESSA PEARL 10458",
+    "cena_za_m2": 75.88,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-Pearl-10458.png"
+  },
+  {
+    "nazwa": "MESSA PEARL 10459",
+    "cena_za_m2": 133.12,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-Pearl-10459.png"
+  },
+  {
+    "nazwa": "MESSA PEARL 10460",
+    "cena_za_m2": 50.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-Pearl-10460.png"
+  },
+  {
+    "nazwa": "MESSA PEARL 10461",
+    "cena_za_m2": 88.9,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-Pearl-10461.png"
+  },
+  {
+    "nazwa": "MESSA PEARL 10462",
+    "cena_za_m2": 105.77,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-Pearl-10462.png"
+  },
+  
+  {
+    "nazwa": "MESSA PEARL 10798",
+    "cena_za_m2": 140.05,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-Pearl-10798.png"
+  },
+  {
+    "nazwa": "MESSA PEARL 22103",
+    "cena_za_m2": 124.78,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-Pearl-22103.png"
+  },
+  
+  {
+    "nazwa": "MESSA PEARL 22189",
+    "cena_za_m2": 133.56,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-Pearl-22189.png"
+  },
+  
+  {
+    "nazwa": "MESSA PEARL 22217",
+    "cena_za_m2": 110.01,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-Pearl-22217.png"
+  },
+  {
+    "nazwa": "MESSA PEARL 22218",
+    "cena_za_m2": 139.75,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-Pearl-22218.png"
+  },
+  {
+    "nazwa": "MESSA PEARL 22247",
+    "cena_za_m2": 98.43,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-Pearl-22247.png"
+  },
+  {
+    "nazwa": "MESSA PEARL 22249",
+    "cena_za_m2": 128.91,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-Pearl-22249.png"
+  },
+  {
+    "nazwa": "MESSA PEARL 22251",
+    "cena_za_m2": 102.57,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-Pearl-22251.png"
+  },
+  {
+    "nazwa": "MESSA PEARL 7702",
+    "cena_za_m2": 145.67,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-Pearl-7702.png"
+  },
+  {
+    "nazwa": "MESSA PEARL 7703",
+    "cena_za_m2": 119.82,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-Pearl-7703.png"
+  },
+  {
+    "nazwa": "MESSA PEARL 7704",
+    "cena_za_m2": 93.56,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-Pearl-7704.png"
+  },
+  {
+    "nazwa": "MESSA PEARL 7705",
+    "cena_za_m2": 138.74,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-Pearl-7705.png"
+  },
+  {
+    "nazwa": "MESSA PEARL 7706",
+    "cena_za_m2": 107.41,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Messa-Pearl-7706.png"
+  },
+  
+  
+  {
+    "nazwa": "Moxa 75301",
+    "cena_za_m2": 105.12,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMO75301.png"
+  },
+  {
+    "nazwa": "Moxa 75302",
+    "cena_za_m2": 148.65,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMO75302.png"
+  },
+  {
+    "nazwa": "Moxa 75303",
+    "cena_za_m2": 119.78,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMO75303.png"
+  },
+  {
+    "nazwa": "Moxa 75304",
+    "cena_za_m2": 93.91,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMO75304.png"
+  },
+  {
+    "nazwa": "Moxa 75305",
+    "cena_za_m2": 128.23,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMO75305.png"
+  },
+  {
+    "nazwa": "Moxa 75306",
+    "cena_za_m2": 102.67,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMO75306.png"
+  },
+  {
+    "nazwa": "Moxa 75307",
+    "cena_za_m2": 141.01,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMO75307.png"
+  },
+  {
+    "nazwa": "Moxa 75308",
+    "cena_za_m2": 114.56,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMO75308.png"
+  },
+  {
+    "nazwa": "Moxa 75309",
+    "cena_za_m2": 95.89,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMO75309.png"
+  },
+  {
+    "nazwa": "Moxa 75311",
+    "cena_za_m2": 133.45,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMO75311.png"
+  },
+  {
+    "nazwa": "Moxa 75312",
+    "cena_za_m2": 106.98,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMO75312.png"
+  },
+  {
+    "nazwa": "Moxa 75313",
+    "cena_za_m2": 147.21,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMO75313.png"
+  },
+  {
+    "nazwa": "Moxa 75314",
+    "cena_za_m2": 120.76,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMO75314.png"
+  },
+  {
+    "nazwa": "Moxa BO 275301",
+    "cena_za_m2": 98.34,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMOBO275301-1.png"
+  },
+  {
+    "nazwa": "Moxa BO 275302",
+    "cena_za_m2": 132.89,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMOBO275302-1.png"
+  },
+  {
+    "nazwa": "Moxa BO 275303",
+    "cena_za_m2": 104.21,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMOBO275303-1.png"
+  },
+  {
+    "nazwa": "Moxa BO 275304",
+    "cena_za_m2": 146.54,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMOBO275304-1.png"
+  },
+  {
+    "nazwa": "Moxa BO 275305",
+    "cena_za_m2": 117.98,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMOBO275305-1.png"
+  },
+  {
+    "nazwa": "Moxa BO 275306",
+    "cena_za_m2": 92.32,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMOBO275306-1.png"
+  },
+  {
+    "nazwa": "Moxa BO 275307",
+    "cena_za_m2": 130.67,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMOBO275307-1.png"
+  },
+  {
+    "nazwa": "Moxa BO 275308",
+    "cena_za_m2": 105.12,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMOBO275308-1.png"
+  },
+  {
+    "nazwa": "Moxa BO 275309",
+    "cena_za_m2": 149.45,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMOBO275309-1.png"
+  },
+  {
+    "nazwa": "Moxa BO 275311",
+    "cena_za_m2": 121.89,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMOBO275311-1.png"
+  },
+  {
+    "nazwa": "Moxa BO 275312",
+    "cena_za_m2": 96.23,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMOBO275312-1.png"
+  },
+  {
+    "nazwa": "Moxa BO 275313",
+    "cena_za_m2": 134.56,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMOBO275313-1.png"
+  },
+  {
+    "nazwa": "Moxa BO 275314",
+    "cena_za_m2": 108.01,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTMOBO275314-1.png"
+  },
+  {
+    "nazwa": "NAKATO 6600",
+    "cena_za_m2": 145.78,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Nakato-6600.png"
+  },
+  {
+    "nazwa": "NAKATO 6601",
+    "cena_za_m2": 118.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Nakato-6601.png"
+  },
+  {
+    "nazwa": "NEO 901",
+    "cena_za_m2": 94.89,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Neo-901.png"
+  },
+  
+  {
+    "nazwa": "NILUNA DO 0204",
+    "cena_za_m2": 106.54,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Niluna-DO-0204.png"
+  },
+  {
+    "nazwa": "NILUNA DO 0450",
+    "cena_za_m2": 149.87,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Niluna-DO-0450.png"
+  },
+  {
+    "nazwa": "NILUNA DO 0999",
+    "cena_za_m2": 120.34,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Niluna-DO-0999.png"
+  },
+  {
+    "nazwa": "NILUNA DO 1320",
+    "cena_za_m2": 98.67,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Niluna-DO-1320.png"
+  },
+  {
+    "nazwa": "NILUNA DO 1510",
+    "cena_za_m2": 136.78,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Niluna-DO-1510.png"
+  },
+  {
+    "nazwa": "NILUNA DO 1999",
+    "cena_za_m2": 107.01,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Niluna-DO-1999.png"
+  },
+ 
+  {
+    "nazwa": "NILUNA DO 2700",
+    "cena_za_m2": 118.91,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Niluna-DO-2700.png"
+  },
+  
+  {
+    "nazwa": "NILUNA DO 3910",
+    "cena_za_m2": 133.21,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Niluna-DO-3910.png"
+  },
+  {
+    "nazwa": "NILUNA DO 4275",
+    "cena_za_m2": 109.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Niluna-DO-4275.png"
+  },
+  {
+    "nazwa": "NILUNA DO 4630",
+    "cena_za_m2": 147.67,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Niluna-DO-4630.png"
+  },
+  {
+    "nazwa": "NILUNA DO 4935",
+    "cena_za_m2": 120.12,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Niluna-DO-4935.png"
+  },
+  
+  
+  {
+    "nazwa": "NOBLIGE DB 2850",
+    "cena_za_m2": 115.67,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Noblige-DB-2850.png"
+  },
+  
+  {
+    "nazwa": "OFFICE 1000",
+    "cena_za_m2": 130.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Office-1000.png"
+  },
+  {
+    "nazwa": "OFFICE 2011",
+    "cena_za_m2": 103.98,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Office-2011.png"
+  },
+  {
+    "nazwa": "OFFICE 2025",
+    "cena_za_m2": 149.23,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Office-2025.png"
+  },
+  {
+    "nazwa": "OFFICE 2054",
+    "cena_za_m2": 121.56,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Office-2054.png"
+  },
+  {
+    "nazwa": "OFFICE 2298",
+    "cena_za_m2": 97.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Office-2298.png"
+  },
+  {
+    "nazwa": "OFFICE 2323",
+    "cena_za_m2": 134.89,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Office-2323.png"
+  },
+  {
+    "nazwa": "OFFICE 2349",
+    "cena_za_m2": 105.12,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Office-2349.png"
+  },
+  {
+    "nazwa": "OFFICE 327",
+    "cena_za_m2": 148.65,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Office-327.png"
+  },
+  {
+    "nazwa": "OFFICE 4135",
+    "cena_za_m2": 119.78,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Office-4135.png"
+  },
+  
+  {
+    "nazwa": "OFFICE 9058",
+    "cena_za_m2": 128.23,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Office-9058.png"
+  },
+  {
+    "nazwa": "OFFICE 9128",
+    "cena_za_m2": 102.67,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Office-9128.png"
+  },
+  {
+    "nazwa": "OFFICE 9135",
+    "cena_za_m2": 141.01,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Office-9135.png"
+  },
+  {
+    "nazwa": "OFFICE 9136",
+    "cena_za_m2": 114.56,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Office-9136.png"
+  },
+  {
+    "nazwa": "OFFICE 9162",
+    "cena_za_m2": 95.89,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Office-9162.png"
+  },
+  {
+    "nazwa": "ONDA 10425",
+    "cena_za_m2": 133.45,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Onda-10425.png"
+  },
+  {
+    "nazwa": "ONDA 10430",
+    "cena_za_m2": 106.98,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Onda-10430.png"
+  },
+  {
+    "nazwa": "ONDA 10431",
+    "cena_za_m2": 147.21,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Onda-10431.png"
+  },
+  {
+    "nazwa": "ONDA 6546",
+    "cena_za_m2": 120.76,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Onda-6546.png"
+  },
+  
+  {
+    "nazwa": "OPAL PEARL 1501",
+    "cena_za_m2": 104.21,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-1501.png"
+  },
+  {
+    "nazwa": "OPAL PEARL 1502",
+    "cena_za_m2": 146.54,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-1502.png"
+  },
+  {
+    "nazwa": "OPAL PEARL 1503",
+    "cena_za_m2": 117.98,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-1503.png"
+  },
+  {
+    "nazwa": "OPAL 1500",
+    "cena_za_m2": 92.32,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-1500.png"
+  },
+  {
+    "nazwa": "OPAL 1501",
+    "cena_za_m2": 130.67,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-1501.png"
+  },
+  {
+    "nazwa": "OPAL 1502",
+    "cena_za_m2": 105.12,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-1502.png"
+  },
+  {
+    "nazwa": "OPAL 1503",
+    "cena_za_m2": 149.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-1503.png"
+  },
+  
+  {
+    "nazwa": "OPAL 1506",
+    "cena_za_m2": 134.56,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-1506.png"
+  },
+  {
+    "nazwa": "OPAL 1507",
+    "cena_za_m2": 108.01,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-1507.png"
+  },
+  
+  {
+    "nazwa": "OPAL 1510",
+    "cena_za_m2": 118.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-1510.png"
+  },
+ 
+  {
+    "nazwa": "OPAL 15207",
+    "cena_za_m2": 149.87,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-15207.png"
+  },
+  {
+    "nazwa": "OPAL 15209",
+    "cena_za_m2": 120.34,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-15209.png"
+  },
+  {
+    "nazwa": "OPAL 15211",
+    "cena_za_m2": 98.67,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-15211.png"
+  },
+  
+  {
+    "nazwa": "OPAL PEARL 15309",
+    "cena_za_m2": 107.01,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-Pearl-15309.png"
+  },
+  {
+    "nazwa": "Opal Pearl 1550",
+    "cena_za_m2": 145.32,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-Pearl-1550.png"
+  },
+  {
+    "nazwa": "Opal Pearl 1551",
+    "cena_za_m2": 118.91,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-Pearl-1551.png"
+  },
+  {
+    "nazwa": "Opal Pearl 1552",
+    "cena_za_m2": 95.76,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-Pearl-1552.png"
+  },
+  {
+    "nazwa": "Opal Pearl 1553",
+    "cena_za_m2": 133.21,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-Pearl-1553.png"
+  },
+  {
+    "nazwa": "Opal Pearl 1556",
+    "cena_za_m2": 109.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-Pearl-1556.png"
+  },
+  {
+    "nazwa": "Opal Pearl 1557",
+    "cena_za_m2": 147.67,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-Pearl-1557.png"
+  },
+  {
+    "nazwa": "Opal Pearl 1558",
+    "cena_za_m2": 120.12,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-Pearl-1558.png"
+  },
+  {
+    "nazwa": "Opal Pearl 1560",
+    "cena_za_m2": 92.56,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-Pearl-1560.png"
+  },
+   
+  {
+    "nazwa": "OPAL PEARL 15307",
+    "cena_za_m2": 115.67,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-Pearl-15307.png"
+  },
+  {
+    "nazwa": "OPAL PEARL 15309",
+    "cena_za_m2": 96.01,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-Pearl-15309.png"
+  },
+  {
+    "nazwa": "OPAL PEARL 15311",
+    "cena_za_m2": 130.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-Pearl-15311.png"
+  },
+  {
+    "nazwa": "OPAL PEARL 1 5312",
+    "cena_za_m2": 103.98,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-Pearl-15312.png"
+  },
+  {
+    "nazwa": "OPAL PEARL 1550",
+    "cena_za_m2": 149.23,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-Pearl-1550.png"
+  },
+  {
+    "nazwa": "OPAL PEARL 1551",
+    "cena_za_m2": 121.56,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-Pearl-1551.png"
+  },
+  {
+    "nazwa": "OPAL PEARL 1552",
+    "cena_za_m2": 97.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-Pearl-1552.png"
+  },
+  {
+    "nazwa": "OPAL PEARL 1553",
+    "cena_za_m2": 134.89,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-Pearl-1553.png"
+  },
+  
+  {
+    "nazwa": "OPAL PEARL 1556",
+    "cena_za_m2": 119.78,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-Pearl-1556.png"
+  },
+  {
+    "nazwa": "OPAL PEARL 1557",
+    "cena_za_m2": 93.91,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-Pearl-1557.png"
+  },
+  {
+    "nazwa": "OPAL PEARL 1558",
+    "cena_za_m2": 128.23,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-Pearl-1558.png"
+  },
+  {
+    "nazwa": "OPAL PEARL 1560",
+    "cena_za_m2": 102.67,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Opal-Pearl-1560.png"
+  },
+ 
+  {
+    "nazwa": "Ordes 0987",
+    "cena_za_m2": 114.56,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Ordes-0987.png"
+  },
+  {
+    "nazwa": "Ordes 4731",
+    "cena_za_m2": 95.89,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Ordes-4731.png"
+  },
+  {
+    "nazwa": "Ordes 7131",
+    "cena_za_m2": 133.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Ordes-7131.png"
+  },
+  {
+    "nazwa": "Ordes BO 0987",
+    "cena_za_m2": 106.98,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Ordes-BO-0987.png"
+  },
+  {
+    "nazwa": "Ordes BO 4731",
+    "cena_za_m2": 147.21,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Ordes-BO-4731.png"
+  },
+  {
+    "nazwa": "Ordes BO 7131",
+    "cena_za_m2": 120.76,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Ordes-BO-7131.png"
+  },
+  {
+    "nazwa": "ORION BO 20001",
+    "cena_za_m2": 98.34,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Orion-BO-20001.png"
+  },
+  {
+    "nazwa": "ORION BO 20003",
+    "cena_za_m2": 132.89,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Orion-BO-20003.png"
+  },
+  
+  {
+    "nazwa": "ORION BO 20006",
+    "cena_za_m2": 146.54,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Orion-BO-20006.png"
+  },
+  {
+    "nazwa": "ORION BO 20007",
+    "cena_za_m2": 117.98,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Orion-BO-20007.png"
+  },
+  {
+    "nazwa": "ORION BO 20011",
+    "cena_za_m2": 92.32,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Orion-BO-20011.png"
+  },
+  {
+    "nazwa": "ORION BO 20012",
+    "cena_za_m2": 130.67,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Orion-BO-20012.png"
+  },
+  {
+    "nazwa": "ORION BO 20013",
+    "cena_za_m2": 105.12,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Orion-BO-20013.png"
+  },
+  
+  {
+    "nazwa": "ORION BO 20017",
+    "cena_za_m2": 121.89,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Orion-BO-20017.png"
+  },
+  
+  
+  {
+    "nazwa": "ORION BO 20022",
+    "cena_za_m2": 108.01,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Orion-BO-20022.png"
+  },
+  {
+    "nazwa": "ORION BO 20023",
+    "cena_za_m2": 145.78,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Orion-BO-20023.png"
+  },
+  
+ 
+  
+  {
+    "nazwa": "PALMA BO 5100",
+    "cena_za_m2": 96.23,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-BO-5100.png"
+  },
+  {
+    "nazwa": "PALMA BO 5110",
+    "cena_za_m2": 134.56,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-BO-5110.png"
+  },
+  {
+    "nazwa": "PALMA BO 5120",
+    "cena_za_m2": 108.01,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-BO-5120.png"
+  },
+  {
+    "nazwa": "PALMA BO 5130",
+    "cena_za_m2": 145.78,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-BO-5130.png"
+  },
+  {
+    "nazwa": "PALMA BO 5140",
+    "cena_za_m2": 118.45,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-BO-5140.png"
+  },
+  {
+    "nazwa": "PALMA BO 5150",
+    "cena_za_m2": 94.89,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-BO-5150.png"
+  },
+  {
+    "nazwa": "PALMA BO 5160",
+    "cena_za_m2": 133.21,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-BO-5160.png"
+  },
+  {
+    "nazwa": "PALMA BO 5170",
+    "cena_za_m2": 106.54,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-BO-5170.png"
+  },
+  {
+    "nazwa": "PALMA BO 5180",
+    "cena_za_m2": 149.87,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-BO-5180.png"
+  },
+  {
+    "nazwa": "PALMA BO 5190",
+    "cena_za_m2": 120.34,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-BO-5190.png"
+  },
+  {
+    "nazwa": "PALMA BO 5200",
+    "cena_za_m2": 98.67,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-BO-5200.png"
+  },
+  {
+    "nazwa": "PALMA BO 5210",
+    "cena_za_m2": 136.78,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-BO-5210.png"
+  },
+  {
+    "nazwa": "PALMA BO 5220",
+    "cena_za_m2": 107.01,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-BO-5220.png"
+  },
+  {
+    "nazwa": "PALMA BO 5230",
+    "cena_za_m2": 145.32,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-BO-5230.png"
+  },
+  {
+    "nazwa": "PALMA BO 5240",
+    "cena_za_m2": 118.91,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-BO-5240.png"
+  },
+  {
+    "nazwa": "PALMA BO 5270",
+    "cena_za_m2": 95.76,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-BO-5270.png"
+  },
+  {
+    "nazwa": "PALMA BO 5300",
+    "cena_za_m2": 133.21,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-BO-5300.png"
+  },
+  {
+    "nazwa": "PALMA BO 5350",
+    "cena_za_m2": 109.45,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-BO-5350.png"
+  },
+  {
+    "nazwa": "PALMA BO 5360",
+    "cena_za_m2": 147.67,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-BO-5360.png"
+  },
+  {
+    "nazwa": "PALMA BO 5380",
+    "cena_za_m2": 120.12,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-BO-5380.png"
+  },
+  {
+    "nazwa": "PALMA BO 5390",
+    "cena_za_m2": 92.56,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-BO-5390.png"
+  },
+  {
+    "nazwa": "PALMA BO 5400",
+    "cena_za_m2": 135.89,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-BO-5400.png"
+  },
+  {
+    "nazwa": "PALMA BO 5410",
+    "cena_za_m2": 108.34,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-BO-5410.png"
+  },
+  {
+    "nazwa": "PALMA 0100",
+    "cena_za_m2": 142.78,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-0100.png"
+  },
+  {
+    "nazwa": "PALMA 0110",
+    "cena_za_m2": 115.67,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-0110.png"
+  },
+  {
+    "nazwa": "PALMA 0120",
+    "cena_za_m2": 96.01,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-0120.png"
+  },
+  {
+    "nazwa": "PALMA 0130",
+    "cena_za_m2": 130.45,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-0130.png"
+  },
+  {
+    "nazwa": "PALMA 0140",
+    "cena_za_m2": 103.98,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-0140.png"
+  },
+  {
+    "nazwa": "PALMA 0150",
+    "cena_za_m2": 149.23,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-0150.png"
+  },
+  {
+    "nazwa": "PALMA 0160",
+    "cena_za_m2": 121.56,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-0160.png"
+  },
+  {
+    "nazwa": "PALMA 0170",
+    "cena_za_m2": 97.45,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-0170.png"
+  },
+  {
+    "nazwa": "PALMA 0180",
+    "cena_za_m2": 134.89,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-0180.png"
+  },
+  {
+    "nazwa": "PALMA 0190",
+    "cena_za_m2": 105.12,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-0190.png"
+  },
+  {
+    "nazwa": "PALMA 0200",
+    "cena_za_m2": 148.65,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-0200.png"
+  },
+  {
+    "nazwa": "PALMA 0210",
+    "cena_za_m2": 119.78,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-0210.png"
+  },
+  {
+    "nazwa": "PALMA 0220",
+    "cena_za_m2": 93.91,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-0220.png"
+  },
+  {
+    "nazwa": "PALMA 0230",
+    "cena_za_m2": 128.23,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-0230.png"
+  },
+  {
+    "nazwa": "PALMA 0250",
+    "cena_za_m2": 102.67,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-0250.png"
+  },
+  {
+    "nazwa": "PALMA 0260",
+    "cena_za_m2": 141.01,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-0260.png"
+  },
+  {
+    "nazwa": "PALMA 0280",
+    "cena_za_m2": 114.56,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-0280.png"
+  },
+  {
+    "nazwa": "PALMA 0290",
+    "cena_za_m2": 95.89,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-0290.png"
+  },
+  {
+    "nazwa": "PALMA 0300",
+    "cena_za_m2": 133.45,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-0300.png"
+  },
+  {
+    "nazwa": "PALMA 0350",
+    "cena_za_m2": 106.98,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-0350.png"
+  },
+  {
+    "nazwa": "PALMA 0360",
+    "cena_za_m2": 147.21,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-0360.png"
+  },
+  {
+    "nazwa": "PALMA 0370",
+    "cena_za_m2": 120.76,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-0370.png"
+  },
+  {
+    "nazwa": "PALMA 0380",
+    "cena_za_m2": 98.34,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-0380.png"
+  },
+  {
+    "nazwa": "PALMA 0410",
+    "cena_za_m2": 132.89,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/Palma-0410.png"
+  },
+ 
+  
+  
+  
+  
+    
+  {
+    "nazwa": "SEOUL 8800",
+    "cena_za_m2": 147.67,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Seoul-8800.png"
+  },
+  {
+    "nazwa": "SEOUL 8801",
+    "cena_za_m2": 120.12,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Seoul-8801.png"
+  },
+  {
+    "nazwa": "SEOUL 8803",
+    "cena_za_m2": 92.56,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Seoul-8803.png"
+  },
+  {
+    "nazwa": "SEOUL 8804",
+    "cena_za_m2": 135.89,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Seoul-8804.png"
+  },
+  {
+    "nazwa": "SEOUL 8806",
+    "cena_za_m2": 108.34,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Seoul-8806.png"
+  },
+  {
+    "nazwa": "SEOUL 8808",
+    "cena_za_m2": 142.78,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Seoul-8808.png"
+  },
+  {
+    "nazwa": "SETO METALLIC 10175",
+    "cena_za_m2": 115.67,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Seto-Metallic-10175.png"
+  },
+  {
+    "nazwa": "SETO METALLIC 10195",
+    "cena_za_m2": 96.01,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Seto-Metallic-10195.png"
+  },
+  {
+    "nazwa": "SHINE 1040",
+    "cena_za_m2": 130.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Shine-1040.png"
+  },
+  {
+    "nazwa": "SHINE 1041",
+    "cena_za_m2": 103.98,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Shine-1041.png"
+  },
+  {
+    "nazwa": "SHINE 1042",
+    "cena_za_m2": 149.23,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Shine-1042.png"
+  },
+  {
+    "nazwa": "SHINE 1043",
+    "cena_za_m2": 121.56,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Shine-1043.png"
+  },
+  {
+    "nazwa": "SHINE 1044",
+    "cena_za_m2": 97.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Shine-1044.png"
+  },
+  {
+    "nazwa": "SHINE 1045",
+    "cena_za_m2": 134.89,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Shine-1045.png"
+  },
+  {
+    "nazwa": "SHINE 1046",
+    "cena_za_m2": 105.12,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Shine-1046.png"
+  },
+  {
+    "nazwa": "SHINE 1047",
+    "cena_za_m2": 148.65,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Shine-1047.png"
+  },
+  {
+    "nazwa": "SHINE 1048",
+    "cena_za_m2": 119.78,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Shine-1048.png"
+  },
+  {
+    "nazwa": "Shine 1048",
+    "cena_za_m2": 93.91,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Shine-1048.png"
+  },
+  {
+    "nazwa": "SHINE 1049",
+    "cena_za_m2": 128.23,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Shine-1049.png"
+  },
+  {
+    "nazwa": "SHINE 1050",
+    "cena_za_m2": 102.67,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Shine-1050.png"
+  },
+  {
+    "nazwa": "SHINE 1051",
+    "cena_za_m2": 141.01,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Shine-1051.png"
+  },
+  {
+    "nazwa": "SHINE 1052",
+    "cena_za_m2": 114.56,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Shine-1052.png"
+  },
+  {
+    "nazwa": "SHINE 1053",
+    "cena_za_m2": 95.89,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Shine-1053.png"
+  },
+  {
+    "nazwa": "SHINE 1054",
+    "cena_za_m2": 133.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Shine-1054.png"
+  },
+  {
+    "nazwa": "SIGNUM 0201",
+    "cena_za_m2": 106.98,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Signum-0201.png"
+  },
+  {
+    "nazwa": "SIGNUM 0201",
+    "cena_za_m2": 147.21,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Signum-0201.png"
+  },
+  {
+    "nazwa": "SIGNUM 0206",
+    "cena_za_m2": 120.76,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Signum-0206.png"
+  },
+  {
+    "nazwa": "SIGNUM 0501",
+    "cena_za_m2": 98.34,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Signum-0501.png"
+  },
+  {
+    "nazwa": "SIGNUM 0502",
+    "cena_za_m2": 132.89,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Signum-0502.png"
+  },
+  {
+    "nazwa": "SIGNUM 0503",
+    "cena_za_m2": 104.21,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Signum-0503.png"
+  },
+  {
+    "nazwa": "SIGNUM 0505",
+    "cena_za_m2": 146.54,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Signum-0505.png"
+  },
+  {
+    "nazwa": "SIGNUM 1601",
+    "cena_za_m2": 117.98,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Signum-1601.png"
+  },
+  {
+    "nazwa": "SIGNUM 1801",
+    "cena_za_m2": 92.32,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Signum-1801.png"
+  },
+  {
+    "nazwa": "SIGNUM BO 20201",
+    "cena_za_m2": 130.67,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Signum-BO-20201.png"
+  },
+  {
+    "nazwa": "SIGNUM BO 20201",
+    "cena_za_m2": 105.12,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Signum-BO-20201.png"
+  },
+  {
+    "nazwa": "SIGNUM BO 20206",
+    "cena_za_m2": 149.45,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Signum-BO-20206.png"
+  },
+  {
+    "nazwa": "SIGNUM BO 20206",
+    "cena_za_m2": 121.89,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Signum-BO-20206.png"
+  },
+  {
+    "nazwa": "SIGNUM BO 20501",
+    "cena_za_m2": 96.23,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Signum-BO-20501.png"
+  },
+  {
+    "nazwa": "SIGNUM BO 20502",
+    "cena_za_m2": 134.56,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Signum-BO-20502.png"
+  },
+  {
+    "nazwa": "SIGNUM BO 20502",
+    "cena_za_m2": 108.01,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Signum-BO-20502.png"
+  },
+  {
+    "nazwa": "SIGNUM BO 20503",
+    "cena_za_m2": 145.78,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Signum-BO-20503.png"
+  },
+  {
+    "nazwa": "SIGNUM BO 20505",
+    "cena_za_m2": 118.45,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Signum-BO-20505.png"
+  },
+  {
+    "nazwa": "SIGNUM BO 21601",
+    "cena_za_m2": 94.89,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Signum-BO-21601.png"
+  },
+  {
+    "nazwa": "SIGNUM BO 21801",
+    "cena_za_m2": 133.21,
+    "rodzaj": "Blackout",
+    "sciezka_do_obrazka": "assets/materials/Signum-BO-21801.png"
+  },
+  {
+    "nazwa": "SINA 4220",
+    "cena_za_m2": 106.54,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Sina-4220.png"
+  },
+  
+  {
+    "nazwa": "SINA 4224",
+    "cena_za_m2": 136.78,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Sina-4224.png"
+  },
+ 
+  {
+    "nazwa": "SINA 4230",
+    "cena_za_m2": 145.32,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Sina-4230.png"
+  },
+  
+  
+  {
+    "nazwa": "STOCKHOLM 7360",
+    "cena_za_m2": 133.21,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Stockholm-7360.png"
+  },
+  {
+    "nazwa": "STOCKHOLM 7361",
+    "cena_za_m2": 109.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Stockholm-7361.png"
+  },
+  {
+    "nazwa": "STOCKHOLM 7367",
+    "cena_za_m2": 147.67,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Stockholm-7367.png"
+  },
+  {
+    "nazwa": "STOCKHOLM 7369",
+    "cena_za_m2": 120.12,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Stockholm-7369.png"
+  },
+  {
+    "nazwa": "STOCKHOLM 7371",
+    "cena_za_m2": 92.56,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Stockholm-7371.png"
+  },
+  {
+    "nazwa": "STOCKHOLM 7377",
+    "cena_za_m2": 135.89,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Stockholm-7377.png"
+  },
+  {
+    "nazwa": "STOCKHOLM 7378",
+    "cena_za_m2": 108.34,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Stockholm-7378.png"
+  },
+  {
+    "nazwa": "STOCKHOLM 7379",
+    "cena_za_m2": 142.78,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Stockholm-7379.png"
+  },
+  {
+    "nazwa": "STOCKHOLM 7380",
+    "cena_za_m2": 115.67,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Stockholm-7380.png"
+  },
+  {
+    "nazwa": "STOCKHOLM 7382",
+    "cena_za_m2": 96.01,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Stockholm-7382.png"
+  },
+  {
+    "nazwa": "STOCKHOLM 7383",
+    "cena_za_m2": 130.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Stockholm-7383.png"
+  },
+  {
+    "nazwa": "STOCKHOLM 7385",
+    "cena_za_m2": 103.98,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Stockholm-7385.png"
+  },
+  {
+    "nazwa": "STOCKHOLM 7387",
+    "cena_za_m2": 149.23,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Stockholm-7387.png"
+  },
+  {
+    "nazwa": "STOCKHOLM 7388",
+    "cena_za_m2": 121.56,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Stockholm-7388.png"
+  },
+  {
+    "nazwa": "STOCKHOLM 7389",
+    "cena_za_m2": 97.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Stockholm-7389.png"
+  },
+  {
+    "nazwa": "STOCKHOLM 7390",
+    "cena_za_m2": 134.89,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Stockholm-7390.png"
+  },
+  
+  {
+    "nazwa": "STORM 5671",
+    "cena_za_m2": 148.65,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Storm-5671.png"
+  },
+  {
+    "nazwa": "STORM 5672",
+    "cena_za_m2": 119.78,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Storm-5672.png"
+  },
+  {
+    "nazwa": "STRUCTURE TEN 0204",
+    "cena_za_m2": 93.91,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Structure-Ten-0204.png"
+  },
+  {
+    "nazwa": "STRUCTURE TEN 1250",
+    "cena_za_m2": 128.23,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Structure-Ten-1250.png"
+  },
+  {
+    "nazwa": "STRUCTURE TEN 2850",
+    "cena_za_m2": 102.67,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Structure-Ten-2850.png"
+  },
+  {
+    "nazwa": "STRUCTURE TEN 4562",
+    "cena_za_m2": 141.01,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Structure-Ten-4562.png"
+  },
+  
+  {
+    "nazwa": "STRUCTURE TEN 4749",
+    "cena_za_m2": 95.89,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Structure-Ten-4749.png"
+  },
+  {
+    "nazwa": "SYNCRO 1029",
+    "cena_za_m2": 133.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Syncro-1029.png"
+  },
+  {
+    "nazwa": "SYNCRO 2289",
+    "cena_za_m2": 106.98,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Syncro-2289.png"
+  },
+  {
+    "nazwa": "SYNCRO 4132",
+    "cena_za_m2": 147.21,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Syncro-4132.png"
+  },
+  {
+    "nazwa": "SYNCRO 8131",
+    "cena_za_m2": 120.76,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Syncro-8131.png"
+  },
+  {
+    "nazwa": "Tara 0201",
+    "cena_za_m2": 98.34,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tara-0201.png"
+  },
+  {
+    "nazwa": "Tara 3290",
+    "cena_za_m2": 132.89,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tara-3290.png"
+  },
+  {
+    "nazwa": "Tara 4532",
+    "cena_za_m2": 104.21,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tara-4532.png"
+  },
+  {
+    "nazwa": "Tara 7131",
+    "cena_za_m2": 146.54,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tara-7131.png"
+  },
+  {
+    "nazwa": "Tara 8002",
+    "cena_za_m2": 117.98,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tara-8002.png"
+  },
+  {
+    "nazwa": "TIGRIS PEARL 1450",
+    "cena_za_m2": 92.32,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tigris-Pearl-1450.png"
+  },
+  {
+    "nazwa": "TIGRIS PEARL 1451",
+    "cena_za_m2": 130.67,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tigris-Pearl-1451.png"
+  },
+  {
+    "nazwa": "TIGRIS PEARL 1452",
+    "cena_za_m2": 105.12,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tigris-Pearl-1452.png"
+  },
+  {
+    "nazwa": "TIGRIS PEARL 1455",
+    "cena_za_m2": 149.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tigris-Pearl-1455.png"
+  },
+  {
+    "nazwa": "TIGRIS PEARL 1456",
+    "cena_za_m2": 121.89,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tigris-Pearl-1456.png"
+  },
+  {
+    "nazwa": "TIGRIS PEARL 1462",
+    "cena_za_m2": 96.23,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tigris-Pearl-1462.png"
+  },
+  {
+    "nazwa": "TIGRIS PEARL 1463",
+    "cena_za_m2": 134.56,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tigris-Pearl-1463.png"
+  },
+  {
+    "nazwa": "TIGRIS PEARL 1464",
+    "cena_za_m2": 108.01,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tigris-Pearl-1464.png"
+  },
+  {
+    "nazwa": "TIGRIS PEARL 1467",
+    "cena_za_m2": 145.78,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tigris-Pearl-1467.png"
+  },
+  {
+    "nazwa": "TIGRIS PEARL 1469",
+    "cena_za_m2": 118.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tigris-Pearl-1469.png"
+  },
+  {
+    "nazwa": "TIGRIS PEARL 1470",
+    "cena_za_m2": 94.89,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tigris-Pearl-1470.png"
+  },
+  {
+    "nazwa": "TIGRIS PEARL 1472",
+    "cena_za_m2": 133.21,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tigris-Pearl-1472.png"
+  },
+  {
+    "nazwa": "Todra 0739",
+    "cena_za_m2": 106.54,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTT0739-450.png"
+  },
+  {
+    "nazwa": "Todra 0830",
+    "cena_za_m2": 149.87,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTT0830-450.png"
+  },
+  {
+    "nazwa": "Todra 1001",
+    "cena_za_m2": 120.34,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTT1001-450.png"
+  },
+  {
+    "nazwa": "Todra 1032",
+    "cena_za_m2": 98.67,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTT1032-450.png"
+  },
+  {
+    "nazwa": "Todra 1232",
+    "cena_za_m2": 136.78,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTT1232-450.png"
+  },
+  {
+    "nazwa": "Todra 1335",
+    "cena_za_m2": 107.01,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTT1335-450.png"
+  },
+  {
+    "nazwa": "Todra 4930",
+    "cena_za_m2": 145.32,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTT4930-450.png"
+  },
+  {
+    "nazwa": "Todra BO 0739",
+    "cena_za_m2": 118.91,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTTBO0739-450.png"
+  },
+  {
+    "nazwa": "Todra BO 0830",
+    "cena_za_m2": 95.76,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTTBO0830-450.png"
+  },
+  {
+    "nazwa": "Todra BO 1001",
+    "cena_za_m2": 133.21,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTTBO1001-450.png"
+  },
+  {
+    "nazwa": "Todra BO 1032",
+    "cena_za_m2": 109.45,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTTBO1032-450.png"
+  },
+  {
+    "nazwa": "Todra BO 1232",
+    "cena_za_m2": 147.67,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTTBO1232-450.png"
+  },
+  {
+    "nazwa": "Todra BO 1335",
+    "cena_za_m2": 120.12,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTTBO1335-450.png"
+  },
+  {
+    "nazwa": "Todra BO 20739",
+    "cena_za_m2": 92.56,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTTBO20739-450.png"
+  },
+  {
+    "nazwa": "Todra BO 20830",
+    "cena_za_m2": 135.89,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTTBO20830-450.png"
+  },
+  {
+    "nazwa": "Todra BO 21001",
+    "cena_za_m2": 108.34,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTTBO21001-450.png"
+  },
+  {
+    "nazwa": "Todra BO 21032",
+    "cena_za_m2": 142.78,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTTBO21032-450.png"
+  },
+  {
+    "nazwa": "Todra BO 21232",
+    "cena_za_m2": 115.67,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTTBO21232-450.png"
+  },
+  {
+    "nazwa": "Todra BO 21335",
+    "cena_za_m2": 96.01,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTTBO21335-450.png"
+  },
+  {
+    "nazwa": "Todra BO 24930",
+    "cena_za_m2": 130.45,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTTBO24930-450.png"
+  },
+  {
+    "nazwa": "Todra BO 4930",
+    "cena_za_m2": 103.98,
+    "rodzaj": "Honeycomb",
+    "sciezka_do_obrazka": "assets/materials/MTTBO4930-450.png"
+  },
+  {
+    "nazwa": "TORRES 1069",
+    "cena_za_m2": 149.23,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Torres-1069.png"
+  },
+  {
+    "nazwa": "TORRES 2275",
+    "cena_za_m2": 121.56,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Torres-2275.png"
+  },
+  {
+    "nazwa": "TORRES 2276",
+    "cena_za_m2": 97.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Torres-2276.png"
+  },
+  {
+    "nazwa": "TORRES 2294",
+    "cena_za_m2": 134.89,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Torres-2294.png"
+  },
+  {
+    "nazwa": "TORRES 2295",
+    "cena_za_m2": 105.12,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Torres-2295.png"
+  },
+  {
+    "nazwa": "TORRES 4139",
+    "cena_za_m2": 148.65,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Torres-4139.png"
+  },
+  {
+    "nazwa": "TORRES 4140",
+    "cena_za_m2": 119.78,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Torres-4140.png"
+  },
+  {
+    "nazwa": "TORRES 5176",
+    "cena_za_m2": 93.91,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Torres-5176.png"
+  },
+  {
+    "nazwa": "TORRES 8134",
+    "cena_za_m2": 128.23,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Torres-8134.png"
+  },
+  {
+    "nazwa": "TORRES 9125",
+    "cena_za_m2": 102.67,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Torres-9125.png"
+  },
+  {
+    "nazwa": "TOSCA 10466",
+    "cena_za_m2": 141.01,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tosca-10466.png"
+  },
+  {
+    "nazwa": "TOSCA 10467",
+    "cena_za_m2": 114.56,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tosca-10467.png"
+  },
+  {
+    "nazwa": "TOSCA 10468",
+    "cena_za_m2": 95.89,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tosca-10468.png"
+  },
+  {
+    "nazwa": "TOSCA 10471",
+    "cena_za_m2": 133.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tosca-10471.png"
+  },
+  {
+    "nazwa": "TOSCA 6732",
+    "cena_za_m2": 106.98,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tosca-6732.png"
+  },
+  {
+    "nazwa": "TOSCA 6736",
+    "cena_za_m2": 147.21,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tosca-6736.png"
+  },
+  {
+    "nazwa": "TOSCA 7430",
+    "cena_za_m2": 120.76,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tosca-7430.png"
+  },
+ 
+  {
+    "nazwa": "TOSCA 7433",
+    "cena_za_m2": 104.21,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tosca-7433.png"
+  },
+  {
+    "nazwa": "TOSCA 7434",
+    "cena_za_m2": 146.54,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tosca-7434.png"
+  },
+  {
+    "nazwa": "TOSCA 7436",
+    "cena_za_m2": 117.98,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tosca-7436.png"
+  },
+  {
+    "nazwa": "TOSCA 7437",
+    "cena_za_m2": 92.32,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tosca-7437.png"
+  },
+  {
+    "nazwa": "TOSCA 7438",
+    "cena_za_m2": 130.67,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Tosca-7438.png"
+  },
+ 
+  
+  {
+    "nazwa": "YUKI 034",
+    "cena_za_m2": 105.12,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Yuki-034.png"
+  },
+  {
+    "nazwa": "ZARA 4941",
+    "cena_za_m2": 149.45,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Zara-4941.png"
+  },
+  {
+    "nazwa": "ZARA 4942",
+    "cena_za_m2": 121.89,
+    "rodzaj": "Standart",
+    "sciezka_do_obrazka": "assets/materials/Zara-4942.png"
+  }
+  
+]
