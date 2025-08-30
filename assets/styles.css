@@ -87,14 +87,15 @@ a{color:inherit;text-decoration:none}
   }
   .dropdown-menu {
     position: static;
-    display: flex;
+    display: none; /* Kluczowa zmiana: ukrywa menu, dopóki nie zostanie aktywowane */
     flex-direction: column;
     background: transparent;
     border: none;
     box-shadow: none;
+    padding-left: 20px; /* Dodatkowy wcięcie dla czytelności */
   }
   .dropdown.open .dropdown-menu {
-    display: flex;
+    display: flex; /* Pokazuje menu po kliknięciu */
   }
   .hero-inner {
     grid-template-columns: 1fr;
