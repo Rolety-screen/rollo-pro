@@ -6,12 +6,125 @@
   <title>Moskitiery — Rollo-Pro.pl</title>
   <link rel="stylesheet" href="assets/styles.css"/>
   <meta name="description" content="Moskitiery — Ramkowe, drzwiowe i rolowane. Skuteczna ochrona przed owadami."/>
+  <style>
+    /* Style dla okna overlay */
+    #page-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      z-index: 1000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+    }
+
+    #overlay-box {
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 8px;
+      text-align: center;
+      max-width: 500px;
+      width: 90%;
+      position: relative;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    #overlay-box h2 {
+      margin-top: 0;
+      color: #333;
+    }
+    
+    #overlay-box p {
+      color: #666;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+    
+    .overlay-form {
+        margin-top: 25px;
+    }
+    
+    .overlay-form input[type="email"] {
+        width: calc(100% - 22px);
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        font-size: 1em;
+    }
+    
+    .overlay-actions {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .overlay-form button {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 1em;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+
+    .overlay-form button:disabled {
+        background-color: #9ca3af;
+        cursor: not-allowed;
+    }
+    
+    .overlay-form button:hover:not(:disabled) {
+        background-color: #0056b3;
+    }
+
+    .overlay-back-btn-red {
+        display: inline-block;
+        padding: 10px 20px;
+        color: white;
+        background-color: #dc3545;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: background-color 0.2s;
+        font-size: 1em;
+    }
+
+    .overlay-back-btn-red:hover {
+        background-color: #c82333;
+    }
+    
+  </style>
 </head>
 <body>
 
+<div id="page-overlay">
+  <div id="overlay-box">
+    <h2>Już wkrótce!</h2>
+    <p>Hej, dzięki że wybrałeś nas. Już wkrótce będziesz mógł zamówić swoją idealną Moskitierę na naszej stronie. Pracujemy nad tym dla Was!</p>
+    
+    <form id="notify-form" class="overlay-form">
+        <p style="font-size: 0.9em; margin-bottom: 10px;">Zostaw swój e-mail, a poinformujemy Cię o starcie:</p>
+        <input type="email" id="notify-email" placeholder="Wpisz swój adres e-mail" required>
+        
+        <div class="overlay-actions">
+            <button type="submit" id="notify-btn">Powiadom mnie</button>
+            <a href="index.html" class="overlay-back-btn-red">Wróć na główną</a>
+        </div>
+    </form>
+
+  </div>
+</div>
 <header class="navbar">
   <div class="inner">
-    <a class="brand" href="index.html"><span class="dot"></span> Rollo-Pro.pl</a>
+    <a class="brand" href="index.html"><img src="assets/images/logo.png" alt="Rollo-Pro.pl logo" style="height: 30px; margin-right: 10px;">Rollo-Pro.pl</a>
     <nav class="menu">
       <a class="btn" href="index.html">Główna</a>
       <div class="dropdown">
@@ -71,6 +184,54 @@
 </footer>
 <div class="toast"></div>
 <script src="assets/script.js"></script>
+
+<script>
+  const notifyForm = document.getElementById('notify-form');
+  const notifyBtn = document.getElementById('notify-btn');
+
+  const toastElement = document.querySelector('.toast');
+  function toast(message) {
+      if(toastElement) {
+        toastElement.textContent = message;
+        toastElement.classList.add('show');
+        setTimeout(() => { toastElement.classList.remove('show'); }, 3000);
+      } else {
+        alert(message);
+      }
+  }
+
+  notifyForm.addEventListener('submit', function(event) {
+    event.preventDefault();
+    // PAMIĘTAJ O ZMIANIE ADRESU E-MAIL!
+    const formEndpoint = 'https://formsubmit.co/ajax/twoj-prawdziwy-email@example.com';
+    const email = document.getElementById('notify-email').value;
+
+    const formData = new FormData();
+    formData.append('email', email);
+    formData.append('_subject', 'Nowy zapis na uruchomienie formularza zamówień (Moskitiery)!');
+    formData.append('informacja', `Proszę o powiadomienie, gdy strona z moskitierami będzie gotowa. Adres: ${email}`);
+
+    notifyBtn.disabled = true;
+    notifyBtn.textContent = 'Wysyłanie...';
+
+    fetch(formEndpoint, {
+      method: 'POST', body: formData, headers: { 'Accept': 'application/json' }
+    })
+    .then(response => response.json())
+    .then(data => {
+      toast('Dziękujemy! Zostaniesz przekierowany na stronę główną.');
+      notifyForm.reset();
+      setTimeout(() => {
+        window.location.href = 'index.html';
+      }, 2000);
+    })
+    .catch(error => {
+      toast('Wystąpił błąd. Spróbuj ponownie.');
+      notifyBtn.disabled = false;
+      notifyBtn.textContent = 'Powiadom mnie';
+    });
+  });
+</script>
 
 </body>
 </html>
