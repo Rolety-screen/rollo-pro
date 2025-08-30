@@ -182,7 +182,8 @@
         transition: opacity 0.2s;
         border: 1px solid white;
     }
-    .image-item:hover .zoom-icon {
+    .image-item:hover .zoom-icon,
+    .radio-card:hover .zoom-icon {
         opacity: 1;
     }
     .input-group label {
@@ -206,6 +207,7 @@
       border-radius: 1rem;
       cursor: pointer;
       transition: border-color 0.2s;
+      position: relative;
     }
     .radio-card.selected {
       border-color: #2563eb;
@@ -222,6 +224,23 @@
     .price-box h3 {
       font-size: 1.5rem;
       font-weight: bold;
+    }
+    .radio-card .image-wrapper {
+      position: relative;
+      width: fit-content;
+      margin: 1rem auto 0 auto;
+    }
+    .radio-card .image-wrapper img {
+      height: 200px;
+      width: auto;
+      display: block;
+      border-radius: 0.5rem;
+    }
+    .radio-card .zoom-icon {
+        top: 15px;
+        right: 8px;
+        left: auto;
+        z-index: 15;
     }
     .toast {
       visibility: hidden;
@@ -293,7 +312,11 @@
         object-fit: cover;
     }
     #preview-profile-top-img,
-    #preview-profile-bottom-img,
+    #preview-profile-bottom-img {
+        left: 50%;
+        transform: translateX(-50%);
+        width: var(--preview-profile-width, 100%);
+    }
     #preview-material-img {
         left: 50%;
         transform: translateX(-50%);
@@ -336,7 +359,7 @@
 
 <header class="navbar">
   <div class="inner">
-    <a class="brand" href="index.html"><span class="dot"></span> Rollo-Pro.pl</a>
+    <a class="brand" href="index.html"><img src="assets/images/logo.png" alt="Rollo-Pro.pl logo" style="height: 30px; margin-right: 10px;">Rollo-Pro.pl</a>
     <nav class="menu">
       <a class="btn" href="index.html">Główna</a>
       <div class="dropdown">
@@ -435,14 +458,26 @@
             <div class="radio-card selected" data-value="standart">
               <h4>Standard</h4>
               <p>Montaż inwazyjny w listwę przyszybową. Bardzo stabilny.</p>
+              <div class="image-wrapper">
+                <img src="assets/mc-standart.png" alt="Montaż standardowy"/>
+                <div class="zoom-icon" data-src="assets/mc-standart.png">🔍</div>
+              </div>
             </div>
             <div class="radio-card" data-value="bezinwazyjny1">
               <h4>Mocowanie bezinwazyjne 1</h4>
               <p>Montaż na ramie okna za pomocą zaczepów. Bez wiercenia.</p>
+              <div class="image-wrapper">
+                <img src="assets/mc-ob.png" alt="Mocowanie bezinwazyjne 1"/>
+                <div class="zoom-icon" data-src="assets/mc-ob.png">🔍</div>
+              </div>
             </div>
             <div class="radio-card" data-value="bezinwazyjny2">
               <h4>Mocowanie bezinwazyjne 2</h4>
-              <p>Montaż na ramie okna za pomocą zaczepów i taśmy.</p>
+              <p>Montaż na ramie okna za pomocą kątowników.</p>
+              <div class="image-wrapper">
+                <img src="assets/mc-kt.png" alt="Mocowanie bezinwazyjne 2"/>
+                <div class="zoom-icon" data-src="assets/mc-kt.png">🔍</div>
+              </div>
             </div>
           </div>
         </div>
@@ -498,17 +533,19 @@
     containerHeight: '420px',
 
     // --- 2. Elementy w podglądzie głównym ---
-    mainPreviewMaterialWidth: '280px',
-    mainPreviewMaterialHeight: '340px',
-    mainPreviewMaterialTopPosition: '40px',
-    mainPreviewProfileTopPosition: '0px',
-    mainPreviewProfileBottomPosition: '10px',
-    mainPreviewProfileHeightRatio: 0.07,
+    mainPreviewMaterialWidth: '680px',
+    mainPreviewMaterialHeight: '350px',
+    mainPreviewMaterialTopPosition: '28px',
+    mainPreviewProfileTopPosition: '10px',
+    mainPreviewProfileBottomPosition: '30px',
+    mainPreviewProfileHeightRatio: 0.03,
+    mainPreviewProfileWidth: '335px', /* ZMIENIAJ TĘ WARTOŚĆ. Powinna być <= containerWidth ('420px'), aby profil był w pełni widoczny */
 
     // --- 3. Elementy w powiększonym podglądzie (modal) ---
-    modalCombinedImageWidth: 600,
-    modalProfileHeightRatio: 0.07,
+    modalCombinedImageWidth: 600, // Szerokość materiału w modalu
     modalMaterialHeightRatio: 0.9,
+    modalProfileWidth: 520,     /* DODANO - Szerokość profili w modalu */
+    modalProfileHeight: 42,      /* DODANO - Wysokość profili w modalu */
 
     // --- 4. Kadrowanie materiału (aby usunąć białe paski) ---
     cropMaterialTop: 40,
@@ -553,10 +590,12 @@
     if (previewContainer && previewProfileTop && previewProfileBottom && previewMaterial) {
         previewContainer.style.width = PREVIEW_CONFIG.containerWidth;
         previewContainer.style.height = PREVIEW_CONFIG.containerHeight;
-        previewContainer.style.setProperty('--preview-element-width', PREVIEW_CONFIG.mainPreviewMaterialWidth);
         
+        previewContainer.style.setProperty('--preview-element-width', PREVIEW_CONFIG.mainPreviewMaterialWidth);
+        previewContainer.style.setProperty('--preview-profile-width', PREVIEW_CONFIG.mainPreviewProfileWidth);
+
         const mainPreviewWidthNum = parseFloat(PREVIEW_CONFIG.mainPreviewMaterialWidth);
-        const profileHeight = mainPreviewWidthNum * PREVIEW_CONFIG.mainPreviewProfileHeightRatio;
+        const profileHeight = mainPreviewWidthNum * PREVIEW_CONFIG.mainPreviewProfileHeightRatio; 
         
         previewProfileTop.style.height = `${profileHeight}px`;
         previewProfileTop.style.top = PREVIEW_CONFIG.mainPreviewProfileTopPosition;
@@ -749,25 +788,19 @@
     document.getElementById('fabric-modal').style.display = 'none';
   }
 
+  // --- POCZĄTEK ZMIANY W JS ---
   async function generateProductImageForModal() {
       const topImg = document.getElementById('preview-profile-top-img');
       const materialImg = document.getElementById('preview-material-img');
       const bottomImg = document.getElementById('preview-profile-bottom-img');
 
-      if (!topImg.src.startsWith('data:') && !topImg.src.startsWith('http') && !topImg.src.includes('placehold.co')) {
-          toast("Obraz profilu jest nieprawidłowy.");
-          return null;
-      }
-      if (!materialImg.src.startsWith('data:') && !materialImg.src.startsWith('http') && !materialImg.src.includes('placehold.co')) {
-          toast("Obraz materiału jest nieprawidłowy.");
-          return null;
-      }
-      if (!bottomImg.src.startsWith('data:') && !bottomImg.src.startsWith('http') && !bottomImg.src.includes('placehold.co')) {
-          toast("Obraz dolnego profilu jest nieprawidłowy.");
+      if (!topImg.src.startsWith('data:') && !topImg.src.startsWith('http') && !topImg.src.includes('placehold.co') ||
+          !materialImg.src.startsWith('data:') && !materialImg.src.startsWith('http') && !materialImg.src.includes('placehold.co') ||
+          !bottomImg.src.startsWith('data:') && !bottomImg.src.startsWith('http') && !bottomImg.src.includes('placehold.co')) {
+          toast("Poczekaj na załadowanie obrazów lub wybierz produkt.");
           return null;
       }
 
-      const desiredModalWidth = PREVIEW_CONFIG.modalCombinedImageWidth;
       const canvas = document.createElement('canvas');
       const ctx = canvas.getContext('2d');
       
@@ -785,51 +818,73 @@
               loadImage(materialImg.src),
               loadImage(bottomImg.src)
           ]);
-
-          const scaledProfileHeight = desiredModalWidth * PREVIEW_CONFIG.modalProfileHeightRatio;
-          const scaledMaterialHeight = desiredModalWidth * PREVIEW_CONFIG.modalMaterialHeightRatio;
           
-          canvas.width = desiredModalWidth;
-          canvas.height = scaledProfileHeight + scaledMaterialHeight + scaledProfileHeight;
+          // Pobieranie wymiarów z konfiguracji
+          const profileWidth = PREVIEW_CONFIG.modalProfileWidth;
+          const profileHeight = PREVIEW_CONFIG.modalProfileHeight;
+          const materialWidth = PREVIEW_CONFIG.modalCombinedImageWidth;
+          const materialHeight = materialWidth * PREVIEW_CONFIG.modalMaterialHeightRatio;
+          
+          // Ustalanie wymiarów płótna (canvas)
+          canvas.width = Math.max(profileWidth, materialWidth);
+          canvas.height = profileHeight + materialHeight + profileHeight;
 
           let currentY = 0;
 
-          // Ustawienia kadrowania
+          // Ustawienia kadrowania materiału
           const sx = PREVIEW_CONFIG.cropMaterialLeft;
           const sy = PREVIEW_CONFIG.cropMaterialTop;
           const sWidth = material.naturalWidth - (PREVIEW_CONFIG.cropMaterialLeft + PREVIEW_CONFIG.cropMaterialRight);
           const sHeight = material.naturalHeight - (PREVIEW_CONFIG.cropMaterialTop + PREVIEW_CONFIG.cropMaterialBottom);
-
-          // Rysowanie górnego profilu
-          ctx.drawImage(topProfile, 0, currentY, desiredModalWidth, scaledProfileHeight);
-          currentY += scaledProfileHeight;
-
-          // Rysowanie skadrowanego materiału
-          ctx.drawImage(material, sx, sy, sWidth, sHeight, 0, currentY, desiredModalWidth, scaledMaterialHeight);
-          currentY += scaledMaterialHeight;
           
-          // Rysowanie dolnego profilu (odwrócony)
+          // Obliczanie wyśrodkowania dla każdego elementu
+          const profileX = (canvas.width - profileWidth) / 2;
+          const materialX = (canvas.width - materialWidth) / 2;
+
+          // Rysowanie górnego profilu (wyśrodkowanego)
+          ctx.drawImage(topProfile, profileX, currentY, profileWidth, profileHeight);
+          currentY += profileHeight;
+
+          // Rysowanie skadrowanego materiału (wyśrodkowanego)
+          ctx.drawImage(material, sx, sy, sWidth, sHeight, materialX, currentY, materialWidth, materialHeight);
+          currentY += materialHeight;
+          
+          // Rysowanie dolnego profilu (wyśrodkowanego i odwróconego)
           ctx.save();
-          ctx.translate(desiredModalWidth / 2, currentY + scaledProfileHeight / 2);
+          ctx.translate(profileX + profileWidth / 2, currentY + profileHeight / 2);
           ctx.rotate(Math.PI);
-          ctx.drawImage(bottomProfile, -desiredModalWidth / 2, -scaledProfileHeight / 2, desiredModalWidth, scaledProfileHeight);
+          ctx.drawImage(bottomProfile, -profileWidth / 2, -profileHeight / 2, profileWidth, profileHeight);
           ctx.restore();
 
           return canvas;
       } catch (error) {
           console.error("Błąd podczas ładowania obrazów do modalu:", error);
-          toast("Błąd generowania podglądu. Upewnij się, że obrazy profili i materiału są prawidłowe i spróbuj ponownie.");
+          toast("Błąd generowania podglądu.");
           return null;
       }
   }
+  // --- KONIEC ZMIANY W JS ---
 
   document.querySelectorAll('.radio-card').forEach(card => {
-    card.addEventListener('click', () => {
+    card.addEventListener('click', (e) => {
+      if (e.target.classList.contains('zoom-icon')) {
+        return;
+      }
       document.querySelectorAll('.radio-card').forEach(c => c.classList.remove('selected'));
       card.classList.add('selected');
       selectedMounting = card.dataset.value;
       updateAll();
     });
+  });
+
+  document.querySelectorAll('.radio-card .zoom-icon').forEach(zoomIcon => {
+      zoomIcon.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const imgSrc = zoomIcon.dataset.src;
+          if (imgSrc) {
+              openModal(imgSrc);
+          }
+      });
   });
 
   document.getElementById('cosimo-btn').addEventListener('click', () => {
