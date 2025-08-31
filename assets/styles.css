@@ -1,4 +1,3 @@
-
 :root{
   --bg:#f2f3f5;
   --bg-contrast:#ffffff;
@@ -19,6 +18,16 @@ a{color:inherit;text-decoration:none}
 .brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:20px;letter-spacing:.5px}
 .brand .dot{width:10px;height:10px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--accent-2));box-shadow:0 0 0 6px var(--ring)}
 .menu{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.menu-container {
+  display: block;
+}
+.menu-toggle {
+    display: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
 .btn{appearance:none;border:none;background:var(--bg-contrast);padding:10px 14px;border-radius:999px;box-shadow:var(--shadow);cursor:pointer;transition:transform .1s ease, box-shadow .2s ease, background .2s ease}
 .btn:hover{transform:translateY(-1px)}
 .btn:active{transform:translateY(0)}
@@ -59,69 +68,86 @@ a{color:inherit;text-decoration:none}
 .hero-slide{position:absolute;inset:0;opacity:0;transition:opacity .6s ease}
 .hero-slide.active{opacity:1}
 .hero-slide .caption{position:absolute;bottom:16px;left:16px;background:rgba(0,0,0,.55);color:white;padding:10px 12px;border-radius:10px}
-@media (max-width: 768px) {
+@media (max-width: 900px) {
+    /* Układ strony */
+    .container {
+        padding: 16px;
+    }
+    .hero-inner {
+        grid-template-columns: 1fr;
+        padding: 24px;
+        gap: 24px;
+    }
+    .hero-inner .preview {
+        display: none;
+    }
+    .hero h1 {
+        font-size: 32px;
+    }
+    .grid-3 {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    .grid-3 > * {
+        grid-column: span 1;
+    }
+    .cards {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Nawigacja */
+     .menu-toggle {
+      display: block;
+      align-self: flex-end; /* Wyrównuje przycisk hamburger do prawej */
+  }
+  .menu-container {
+      display: none;
+      position: absolute;
+      top: 60px; /* Dostosuj do wysokości twojego nagłówka */
+      left: 0;
+      width: 100%;
+      background: var(--bg-contrast);
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  .menu-container.active {
+      display: block;
+  }
   .navbar .inner {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 14px 24px 0;
+      justify-content: space-between;
   }
   .menu {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0;
-    width: 100%;
-    margin-top: 10px;
+      flex-direction: column;
+      padding: 16px;
+      align-items: flex-start; /* Wyrównuje przyciski do lewej */
   }
   .menu .btn {
-    width: 100%;
-    border-radius: 0;
-    box-shadow: none;
-    text-align: left;
-    background: transparent;
+      width: 100%;
+      border-radius: 0;
+      box-shadow: none;
+      text-align: left;
+      background: transparent;
+      padding: 12px 0;
   }
   .menu .btn.primary {
-    border-radius: 999px;
-    margin-bottom: 10px;
-    background: linear-gradient(135deg, var(--accent), var(--accent-2));
-    color: white;
+      margin-top: 10px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: white;
+      border-radius: 999px;
   }
   .dropdown-menu {
-    position: static;
-    display: none; /* Kluczowa zmiana: ukrywa menu, dopóki nie zostanie aktywowane */
-    flex-direction: column;
-    background: transparent;
-    border: none;
-    box-shadow: none;
-    padding-left: 20px; /* Dodatkowy wcięcie dla czytelności */
+      position: static;
+      display: none; /* Domyślnie ukrywa listę produktów */
+      flex-direction: column;
+      background: transparent;
+      border: none;
+      box-shadow: none;
+      padding: 0 0 0 16px;
+      margin-bottom: 8px;
   }
   .dropdown.open .dropdown-menu {
-    display: flex; /* Pokazuje menu po kliknięciu */
+    display: flex; /* Pokazuje listę, gdy klasa 'open' jest aktywna */
   }
-  .hero-inner {
-    grid-template-columns: 1fr;
-    padding: 24px;
-    gap: 24px;
+  .dropdown-menu a {
+      padding: 8px 0;
   }
-  .hero h1 {
-    font-size: 32px;
-  }
-  .cards {
-    grid-template-columns: 1fr;
-  }
-  .card {
-    grid-column: span 12;
-  }
-  .grid-3 {
-    grid-template-columns: 1fr;
-    gap: 16px;
-  }
-  .grid-3 > * {
-    grid-column: span 12;
-  }
-  .toast {
-    bottom: 10px;
-    left: 10px;
-    right: 10px;
-  }
-}
 }
