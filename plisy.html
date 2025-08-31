@@ -354,32 +354,89 @@
         background-color: rgba(0, 0, 0, 0.8);
     }
   </style>
+  <style>
+    /* NOWE STYLE DLA NAWIGACJI MOBILNEJ */
+    .menu-toggle {
+        display: none;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    @media (max-width: 1023px) {
+        .menu-toggle {
+            display: block; /* Pokaż przycisk hamburgera */
+        }
+        .menu-container {
+            display: none; /* Ukryj menu domyślnie */
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: #fff;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+        .menu-container.active {
+            display: block; /* Pokaż menu po kliknięciu */
+        }
+        .menu {
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 1rem;
+            gap: 0;
+        }
+        .menu .btn, .menu .dropdown {
+            width: 100%;
+            text-align: left;
+            border-radius: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .dropdown .dropdown-menu {
+            position: static; /* Usuń pozycjonowanie absolutne w menu mobilnym */
+            box-shadow: none;
+            border: none;
+            display: none; /* Ukryj domyślnie */
+            width: 100%;
+            padding-left: 1rem;
+        }
+        .dropdown.open .dropdown-menu {
+            display: flex; /* Pokaż po kliknięciu w "Produkty" */
+            flex-direction: column;
+        }
+    }
+  </style>
 </head>
 <body>
 
 <header class="navbar">
   <div class="inner">
     <a class="brand" href="index.html"><img src="assets/images/logo.png" alt="Rollo-Pro.pl logo" style="height: 30px; margin-right: 10px;">Rollo-Pro.pl</a>
-    <nav class="menu">
-      <a class="btn" href="index.html">Główna</a>
-      <div class="dropdown">
-        <button class="btn dropdown-toggle">Produkty ▾</button>
-        <div class="dropdown-menu">
-          <a href="rolety.html">Rolety</a>
-          <a href="plisy.html">Plisy</a>
-          <a href="zaluzje.html">Żaluzje</a>
-          <a href="wertikale.html">Wertikale</a>
-          <a href="moskitiery.html">Moskitiery</a>
+    <button class="menu-toggle">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+    </button>
+    <div class="menu-container">
+      <nav class="menu">
+        <a class="btn" href="index.html">Główna</a>
+        <div class="dropdown">
+          <button class="btn dropdown-toggle">Produkty ▾</button>
+          <div class="dropdown-menu">
+            <a href="rolety.html">Rolety</a>
+            <a href="plisy.html">Plisy</a>
+            <a href="zaluzje.html">Żaluzje</a>
+            <a href="wertikale.html">Wertikale</a>
+            <a href="moskitiery.html">Moskitiery</a>
+          </div>
         </div>
-      </div>
-      <a class="btn" href="o-nas.html">O nas</a>
-      <a class="btn" href="pomoc.html">Pomoc</a>
-      <a class="btn relative" href="koszyk.html">
-        🛒 Koszyk
-        <span id="cart-counter" class="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center" style="display: none;">0</span>
-      </a>
-      <a class="btn primary" href="pomoc.html#kontakt">Wyceń zamówienie</a>
-    </nav>
+        <a class="btn" href="o-nas.html">O nas</a>
+        <a class="btn" href="pomoc.html">Pomoc</a>
+        <a class="btn relative" href="koszyk.html">
+          🛒 Koszyk
+          <span id="cart-counter" class="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center" style="display: none;">0</span>
+        </a>
+        <a class="btn primary" href="pomoc.html#kontakt">Wyceń zamówienie</a>
+      </nav>
+    </div>
   </div>
 </header>
 
@@ -392,7 +449,7 @@
       
       <div class="preview-panel">
         <h2 class="text-2xl font-bold mb-4">Twój produkt</h2>
-        <div id="product-preview" class="w-full max-w-sm h-96 bg-white rounded-lg shadow-lg relative">
+        <div id="product-preview" class="w-full max-w-sm h-200 bg-white rounded-lg shadow-lg relative">
           <div id="zoom-product-preview" title="Powiększ podgląd">🔍</div>
           <img id="preview-profile-top-img" class="preview-image" src="https://placehold.co/400x40/d1d5db" alt="Top Profile">
           <img id="preview-material-img" class="preview-image" src="https://placehold.co/400x400/f3f4f6" alt="Material">
@@ -945,6 +1002,44 @@
     updateAll();
     updateCartCounter();
   };
+</script>
+
+<script>
+  // Zaktualizowany skrypt do obsługi menu mobilnego
+  document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const menuContainer = document.querySelector('.menu-container');
+    const dropdownToggle = document.querySelector('.dropdown-toggle');
+    const dropdown = document.querySelector('.dropdown');
+
+    if (menuToggle) {
+        menuToggle.addEventListener('click', function() {
+            menuContainer.classList.toggle('active');
+        });
+    }
+
+    if (dropdownToggle) {
+        dropdownToggle.addEventListener('click', function(e) {
+            // Zapobiegaj zamykaniu menu, jeśli jest już otwarte w trybie desktop
+            if (window.innerWidth < 1024) {
+                 e.preventDefault();
+                 dropdown.classList.toggle('open');
+            }
+        });
+    }
+
+    function updateCartCounter() {
+        const cart = JSON.parse(localStorage.getItem('cart')) || [];
+        const counter = document.getElementById('cart-counter');
+        if (cart.length > 0) {
+            counter.textContent = cart.length;
+            counter.style.display = 'flex';
+        } else {
+            counter.style.display = 'none';
+        }
+    }
+    updateCartCounter();
+  });
 </script>
 
 </body>
